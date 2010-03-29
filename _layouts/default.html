@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css"/>
+  </head>
+
+
+<body>
+<div id="wrap">
+  <div id="header">
+    <div id="navigation">
+      <ul>
+        <li><a href="http://github.com/avsm/py-perscon">Code</a></li>
+        <li><a href="/architecture.html">Design</a></li>
+        <li><a href="/install.html">Installation</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div id="logo">
+     Personal Containers
+    </div>
+    <div id="slogan">
+     Your database of people, places and things
+    </div>
+
+  </div>
+
+  <div id="main">
+    <div id="left-column">
+
+    {{ content }}
+
+    <a href="{{ page.url }}#disqus_thread">View Comments</a>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript" src="http://disqus.com/forums/paper-planes/embed.js"></script>
+
+    </div>
+    <div id="right-column">
+
+      <div id="sidebar">
+
+        <ul>
+
+        <li>
+          Personal containers are databases designed to securely hold all your personal data, helping you maintain privacy and security.  When you do need to share information, personal containers help you do this and keep try to track the data around the Internet.  This is still an early-stage research project, but please do join our <a href="/contact.html">mailing lists</a> and participate if interested!
+        </li>
+        <li>
+          <h2>Subscribe</h2>
+          <ul>
+            <li class="rss">
+               <a href="/feed/atom.xml"><img src="/images/rss.png" alt="Atom Feed" name="rsssubscribe" width="32" height="32" border="0" align="middle" id="rsssubscribe"/>Subscribe by Atom</a>
+             </li>
+          </ul>
+        </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+  <p>Copyright &copy; 2010 Anil Madhavapeddy. Funded by the <a href="http://horizon.ac.uk">Horizon Institute</a> and the <a href="http://www.cl.cam.ac.uk/">University of Cambridge</a>.</p>
+  </div>
+</div>
+
+  </body>
+</html>
