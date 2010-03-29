@@ -3,7 +3,49 @@ layout: default
 title: Installation
 ---
 
-App Engine
-==========
+## App Engine
 
-tbd
+There are several prototypes in development, but the most useful one currently is the data gathering module, which sits on [Google App Engine](http://code.google.com/appengine).  It can receive uploads from your laptop and phone, and can also periodically poll cloud services (e.g. Mobile Me) for your location information.
+
+Follow these steps to get it up and running:
+
+* Set up a Google App Engine instance, by going to <http://appengine.google.com> and following the instructions. If this is your first VM, you will need to provide your mobile phone number as an extra step for Google.
+* Clone the Python code from <http://github.com/avsm/py-perscon> to your local development machine.
+* Switch to the `appengine` directory, where there are several files with `.in` extensions:
+
+	* `app.yaml.in`: change the `@APP_NAME@` variable to the name you assigned your App Engine VM.
+	* `cron.yaml.in`: this controls periodic polling, so set it to the resolution you want.  Beware that the iPhone/MobileMe plugin will drain your phone's battery life if you use it too often.
+	* `passwd.py.in`: you need to fill in passwords for [MobileMe](http://me.com) (for iPhone tracking), and generate a [Flickr](http://flickr.com) API key (details [here](http://www.flickr.com/services/api/misc.api_keys.html)) and a Google Maps key (details [here](http://code.google.com/apis/maps/signup.html)).   This isn't particularly secure, and the passwords would be better done using OAuth or similar if the remote service supports it.
+
+* Run the VM in SDK mode (read the [SDK instructions](http://code.google.com/appengine/downloads.html)).  This is easiest done using the Python GUI launcher.
+
+* Manually navigate to the local URL to trigger the iPhone poll, e.g. at <http://localhost:8080/tasks/fmi> which should cause the perscon to retrieve your phone location via FindMyIPhone.
+
+* Look at the local DataStore to ensure the data has been saved via the admin interface, probably at <http://localhost:8080/_ah/admin>
+
+* Upload the VM to Google and access it at <https://your-app-id.appspot.com>.  It should show you a default Google Maps view of your location history as a polyline, for example:
+
+<span><a href="images/gmaps1.png"><img src="images/gmaps1-thumb.png" /></a> <a href="images/gmaps2.png"><img src="images/gmaps2-thumb.png" /></a></span>
+
+## Plugins
+
+There are a number of bundled plugins to put information up into a live personal container, such as phone calls, Twitters, SMS messages, and so on.
+
+### MacOS X
+
+* Change to the `support` directory and run `build.sh`. It should complete without errors on MacOS X 10.6.
+* Copy `Perscon_config.py.in` to `Perscon_config.py` and fill in the variables.
+* In the `plugins` directory, you can now run:
+
+	* *Adium*: via `python sync.py`, uploads your instant messaging
+	* *MacOS-AddressBook*: via `python sync.py`, uploads your contacts database
+	* *iPhone*: via `./sync.sh`, extracts call history and SMS messages and uploads them
+	* *Twitter*: via `python sync.py`, uploads Tweets (this needs to be changed to run directly on the AppEngine version via OAuth).
+	* *iPhoto*, via `python sync.py`, uploads iPhoto face, thumbnails and GPS traces
+
+There are also other plugins in the directory which are under development, for Google Docs, Skype, Photo files, Picasa, etc.
+
+### Android
+
+An [Android](http://www.android.com/) mobile phone application to upload your location is available in the `py-perscon/android` directory.
+Installation instructions tbd.
