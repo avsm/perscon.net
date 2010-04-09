@@ -5,6 +5,7 @@ layout: nil
 <rss version="2.0">
   <channel>
     <title>Personal Containers</title>
+    <description>Personal Containers RSS feed</description>
     <link>http://perscon.net/</link>
     <copyright>Copyright (C) 2010 Anil Madhavapeddy, Richard Mortier</copyright>
     
