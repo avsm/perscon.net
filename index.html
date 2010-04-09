@@ -7,5 +7,5 @@ title: Personal Containers
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {{ post.content }}
   <br />
-  <em>Posted on {{ post.date | date_to_long_string }} by {{ post.author }}.</em>
+  <em>Posted on {{ post.date | date_to_long_string }} by {{ post.author | xml_escape }}.</em>
 {% endfor %}
