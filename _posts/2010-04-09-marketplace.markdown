@@ -1,7 +1,7 @@
 ---
 layout: default
 title: A Personal Containers Marketplace
-author: Richard Mortier <mort@cantab.net>
+author: Richard Mortier
 ---
 
 
