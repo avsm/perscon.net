@@ -50,9 +50,10 @@ expected to be something like:
 4. If the data item matches a constraint set for an authorized
    application, the mask computed by the application's context
    function is computed and applied to the item before it is passed on
-   to the application.  If the application is unauthorized, then the
-   default mask is applied first (which may, of course, completely
-   redact the item).  Completely redacted items are not passed on.
+   to the callback URL of the application.  If the application is
+   unauthorized, then the default mask is applied first (which may, of
+   course, completely redact the item).  Completely redacted items are
+   not passed on.
 
 Some pretty pictures (plus other notes) that try to illustrate this
 are available in [this slide deck][slides].  There are clearly many
