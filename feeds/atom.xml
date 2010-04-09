@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Personal Containers</title>
- <link href="http://perscon.net/feed/atom.xml" rel="self"/>
+ <link href="http://perscon.net/feeds/atom.xml" rel="self"/>
  <link href="http://perscon.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://perscon.net/</id>
