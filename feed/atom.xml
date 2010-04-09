@@ -14,7 +14,7 @@ layout: nil
    <email>anil@recoil.org</email>
  </author>
  
- {% for post in site.posts %}
+ {% for post in site.posts limit:20 offset:0 %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="http://perscon.net{{ post.url }}"/>

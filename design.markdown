@@ -18,7 +18,7 @@ One important aspect of Personal Containers is _how to provide access
 to third parties to liberate value from your personal data_.  Simply
 archiving your digital footprint is a personally valuable consequence
 of having a personal container, but not the only one.  Accurately
-targetted services, such as advertising, are also valuable to you (the
+targeted services, such as advertising, are also valuable to you (the
 owner) and others (third parties).  Similarly, third-party services
 might make use of data from your Personal Container gathered from a
 wide range of sources that would not otherwise be available to them,
