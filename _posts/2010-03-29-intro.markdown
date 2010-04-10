@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Opening a website
 author: Anil Madhavapeddy
 ---

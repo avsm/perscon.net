@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A Personal Containers Marketplace
 author: Richard Mortier
 ---
