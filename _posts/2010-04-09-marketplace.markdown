@@ -15,4 +15,4 @@ think this is a pretty interesting problem, so we've added an initial
 free to pitch in!
 
 [current code]: http://github.com/avsm/py-perscon
-[design note]: design.html
+[design note]: /design.html
