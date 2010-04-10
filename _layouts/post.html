@@ -7,8 +7,9 @@ layout: default
   </header>
   {{ content }}
   <br />
-  <em>Posted on {{ post.date | date_to_long_string }} by {{ post.author | xml_escape }}.</em>
+  <em>Posted on {{ page.date | date_to_long_string }} by {{ page.author | xml_escape }}.</em>
 </article>
+
 <nav class="articles-nav">
   <p>
     {% if page.previous %}
