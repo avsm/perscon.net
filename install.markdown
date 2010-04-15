@@ -23,9 +23,9 @@ Follow these steps to get it up and running:
 
 * Look at the local DataStore to ensure the data has been saved via the admin interface, probably at <http://localhost:8080/_ah/admin>
 
-* Upload the VM to Google and access it at <https://your-app-id.appspot.com>.  It should show you a default Google Maps view of your location history as a polyline, for example:
+* Upload the VM to Google and access it at <https://your-app-id.appspot.com>.  It should show you a webmail-style user interface, and click on the Settings/Plugins panel to authenticate to Twitter and get some messages in the system.
 
-<span><a href="images/gmaps1.png"><img src="images/gmaps1-thumb.png" /></a> <a href="images/gmaps2.png"><img src="images/gmaps2-thumb.png" /></a></span>
+<span><a href="images/perscon-extjs.png"><img src="images/perscon-extjs-thumb.png" /></a></span>
 
 ## Plugins
 
@@ -38,7 +38,7 @@ There are a number of bundled plugins to put information up into a live personal
 * In the `plugins` directory, you can now run:
 
 	* *Adium*: via `python sync.py`, uploads your instant messaging
-	* *MacOS-AddressBook*: via `python sync.py`, uploads your contacts database
+	* *MacOS-SyncServices*: via `python sync.py`, uploads your contacts database using SyncServices
 	* *iPhone*: via `./sync.sh`, extracts call history and SMS messages and uploads them
 	* *Twitter*: via `python sync.py`, uploads Tweets (this needs to be changed to run directly on the AppEngine version via OAuth).
 	* *iPhoto*, via `python sync.py`, uploads iPhoto face, thumbnails and GPS traces
