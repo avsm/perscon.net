@@ -10,7 +10,7 @@ There are several prototypes in development, but the most useful one currently i
 Follow these steps to get it up and running:
 
 * Set up a Google App Engine instance, by going to <http://appengine.google.com> and following the instructions. If this is your first VM, you will need to provide your mobile phone number as an extra step for Google.
-* Clone the Python code from <http://github.com/avsm/py-perscon> to your local development machine.
+* Clone the Python code from <http://github.com/avsm/perscon> to your local development machine.
 * Switch to the `appengine` directory, where there are several files with `.in` extensions:
 
 	* `app.yaml.in`: change the `@APP_NAME@` variable to the name you assigned your App Engine VM.
@@ -47,5 +47,10 @@ There are also other plugins in the directory which are under development, for G
 
 ### Android
 
-An [Android](http://www.android.com/) mobile phone application to upload your location is available in the `py-perscon/android` directory.
+An [Android](http://www.android.com/) mobile phone application to upload your location is available in the `perscon/android` directory.
 Installation instructions tbd.
+
+### UNIX server
+
+A server for UNIX-like operating systems, written in OCaml, is in the `perscon/server` directory, but is still under development to reach parity with the AppEngine API.
+
