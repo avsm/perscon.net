@@ -6,10 +6,26 @@ title: Design
 Design Notes
 ============
 
-Your Personal Container stores your personal data -- your _digital
-footprint_, a simple statement that entails several components!  We'll
-be documenting design aspects here as we progress.  Watch this space...
+Your Personal Container stores your personal data; your _digital footprint_, a simple statement that entails several components!  The overall idea is below:
 
+<a href="/images/nomads-diagram.png"><img src="/images/nomads-diagram-450.png"></a>
+
+The source repository contains several pieces in various stages of development:
+
+* The [App Engine Collector](http://github.com/avsm/perscon/tree/master/appengine/) is designed to run on the free Google [App Engine](http://appengine.google.com) infrastructure to collect short-term data continuously, such as Find My iPhone, Twitter, Foursquare, etc.
+* [UNIX Server](http://github.com/avsm/perscon/tree/master/server/) is a standalone, small, fast server written in [OCaml](http://caml.inria.fr) that uses the same HTTP API as the App Engine collector to synchronise your data to a normal OS. This could run in the cloud, or on small low-power [plug computers](http://plugcomputer.org/) at home on your broadband.
+* [Android](http://github.com/avsm/perscon/tree/master/android/) is a mobile handset client that collects your GPS and other information and regularly uploads it to one of the fixed servers.
+* [Plugins](http://github.com/avsm/perscon/tree/master/plugins/) contain several plugins for local desktop computers such as iPhone, iPhoto, Skype or Sync Services and upload it to a fixed server.
+
+We'll have more information and documentation on the HTTP API as it settles down.  Right now, the biggest outstanding challenge is finalising the storage schema across these components.
+
+Papers and Talks
+----------------
+
+We've written some position papers about early versions of the personal containers:
+
+* **Yurts for Digital Nomads** on the overall architecture and problem, [draft pdf](/papers/digital-yurts-draft1.pdf) or [blog post](/2010/04/29/yurts-for-digital-nomads.html)
+* **Multiscale not Multicore: Efficient Heterogenous Cloud Computing**: for the BCS Visions 2010 conference, see [pdf](http://www.bcs.org/server.php?show=conMediaFile.15105) or the [talk](http://prezi.com/xkmdmfjokxqg/multi-scale-not-multicore/)
 
 Marketplace
 -----------
