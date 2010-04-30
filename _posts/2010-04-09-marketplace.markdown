@@ -14,5 +14,5 @@ think this is a pretty interesting problem, so we've added an initial
 [design note][] with some thoughts on how we might solve it.  Feel
 free to pitch in!
 
-[current code]: http://github.com/avsm/py-perscon
+[current code]: http://github.com/avsm/perscon
 [design note]: /design.html
