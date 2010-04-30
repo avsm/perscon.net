@@ -15,7 +15,7 @@ Follow these steps to get it up and running:
 
 	* `app.yaml.in`: change the `@APP_NAME@` variable to the name you assigned your App Engine VM.
 	* `cron.yaml.in`: this controls periodic polling, so set it to the resolution you want.  Beware that the iPhone/MobileMe plugin will drain your phone's battery life if you use it too often.
-	* `passwd.py.in`: you need to fill in passwords for [MobileMe](http://me.com) (for iPhone tracking), and generate a [Flickr](http://flickr.com) API key (details [here](http://www.flickr.com/services/api/misc.api_keys.html)) and a Google Maps key (details [here](http://code.google.com/apis/maps/signup.html)).   This isn't particularly secure, and the passwords would be better done using OAuth or similar if the remote service supports it.
+	* `perscon/passwd.py.in`: you need to fill in passwords for [MobileMe](http://me.com) (for iPhone tracking), and generate a [Flickr](http://flickr.com) API key (details [here](http://www.flickr.com/services/api/misc.api_keys.html)).   This isn't particularly secure, and we are moving to OAuth where possible (the Twitter and Google plugins already use it).
 
 * Run the VM in SDK mode (read the [SDK instructions](http://code.google.com/appengine/downloads.html)).  This is easiest done using the Python GUI launcher.
 
