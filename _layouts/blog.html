@@ -1,0 +1,42 @@
+---
+layout: base
+---
+
+<div id="left-column">
+  {{ content }}
+
+  <p />
+  <a href="{{ page.url }}#disqus_thread">View Comments</a>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript" src="http://disqus.com/forums/avsm/embed.js"></script>
+
+</div>
+<div id="right-column">
+  <div id="sidebar">
+    <ul>
+<!--
+      <li>
+        Personal containers are databases designed to hold all your
+        personal data securely, helping you maintain privacy and
+        security.  When you do need to share information, personal
+        containers help you do so while trying to keep track of the
+        data as it flows around the Internet.  This is still an
+        early-stage research project, but please do join
+        our <a href="/contact.html">mailing lists</a> and participate
+        if interested!
+      </li>
+-->
+      <li>
+        <h1>Subscribe</h1>
+        <ul>
+          <li class="rss">
+            <a href="/feeds/atom.xml"><img src="/images/rss.png" alt="Atom Feed" name="rsssubscribe" width="32" height="32" border="0" align="middle" id="rsssubscribe"/>Subscribe by Atom</a>
+          </li>
+          <li class="rss">
+            <a href="/feeds/rss.xml"><img src="/images/rss.png" alt="RSS Feed" name="rsssubscribe" width="32" height="32" border="0" align="middle" id="rsssubscribe"/>Subscribe by RSS</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>

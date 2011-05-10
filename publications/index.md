@@ -1,7 +1,80 @@
 ---
+title: Publications
 layout: default
-title: Design
+section: publications
 ---
+
+
+
+Papers & Talks
+==============
+
+<ul id="publications">
+  <li class="paper">
+    <span class="authors">D. McAuley, R. Mortier, J. Goulding</span>
+    <span class="title">
+      <a href="http://dx.doi.org/10.1109/COMSNETS.2011.5716491">
+        The Dataware Manifesto</a></span>
+    <span class="venue">Proceedings of the 3rd IEEE International
+      Conference on Communication Systems and Networks
+      (COMSNETS)</span>
+    <span class="address">Bangalore, India</span>
+    <span class="date">January 2011</span>
+    <span class="note">Invited paper</span>
+  </li>
+  
+  <li class="talk">
+    <span class="authors">R. Mortier</span>
+    <span class="title">
+      <a href="http://www.cl.cam.ac.uk/research/srg/netos/socialnets/slides/Richard_Motier.pdf">
+        Horizon&mdash; Becoming Dataware</a></span>
+    <span class="venue">
+      <a href="http://www.cl.cam.ac.uk/research/srg/netos/socialnets/">
+        SocialNets Workshop</a></span>
+    <span class="video">
+      <a href="http://www.cl.cam.ac.uk/research/srg/netos/socialnets/videos/10.mp4">video</a></span>
+    <span class="address">Cambridge, UK</span>
+    <span class="date">November 2009</span>
+  </li>
+  
+  <li class="paper">
+    <span class="authors">D. McAuley</span>  
+    <span class="title">
+      <a href="http://edition.pagesuite-professional.co.uk/launch.aspx?referral=other&pnum=192&refresh=q04PLg1590Xk&EID=4ba92dfe-08ee-438f-a709-7e96ca441567&skip=">
+        Free the data to build the digital economy</a></span>
+    <span class="venue">Public Service Review: Central Government, issue 21</span>
+    <span class="date">2010</span>
+  </li>
+  
+  <li class="paper">
+    <span class="authors">R. Mortier, C. Greenhalgh, D. McAuley,
+      A. Spence, A. Madhavapeddy, J. Crowcroft, S. Hand</span>
+    <span class="title">
+      <a href="https://www.horizon.ac.uk/images/stories/f76-Mortier.pdf">
+        Personal Containers or, Your Life in Bits</a></span> 
+    <span class="venue">
+      <a href="https://www.horizon.ac.uk/news/digitalfutures/">
+        Digital Futures workshop</a></span>
+    <span class="address">Nottingham, UK</span>
+    <span class="date">October 2010</span>
+    <span class="note">Extended abstract</span>
+  </li>
+  
+  <li class="paper">
+    <span class="authors">J. Crowcroft, A. Madhavapeddy, M. Schwarzkopf,
+      T. Hong, R. Mortier</span>
+    <span class="title">
+      <a href="http://anil.recoil.org/papers/2011-icdcn-droplets.pdf">
+        Unclouded Vision</a></span>
+    <span class="venue">Proceedings of 12th International Conference on
+      Distributed Computing and Networking (ICDCN)</span>
+    <span class="address">Bangalore, India</span>
+    <span class="date">January 2011</span>
+    <span class="note">Invited paper</span>
+  </li>  
+</ul>
+
+<!--
 
 Design Notes
 ============
@@ -77,3 +150,5 @@ problems to solve in implementing this for real, but it's one possible
 route.  Let us know what you think!
 
 [slides]: http://github.com/horizon-institute/notes/raw/master/datamodelling-theme_infoarch.pdf
+
+-->
