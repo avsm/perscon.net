@@ -83,10 +83,11 @@ blockquote {
 
 #navigation { float: right; text-align: right; height: 50px; padding: 5px 10px 10px 10px; }
 #navigation ul { list-style-type: none; padding: 0; margin: 0; display: inline; }
-#navigation li { list-style-type: none; margin: 0 20px 0 0; display: inline; }
+#navigation li { list-style-type: none; margin: 0 1.5ex 0 0; display: inline; }
 #navigation a { text-decoration: none; color: black; font-size: 1em; font-weight: bold; }
 #navigation a:hover { text-decoration: none; color: black; font-size: 1em; border-bottom: 1px solid #FFF }
 
+body#home #navigation a.home,
 body#overview #navigation a.overview,
 body#blog #navigation a.blog,
 body#publications #navigation a.publications,

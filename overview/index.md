@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Overview
 layout: default
-section: projects
+section: overview
 ---
