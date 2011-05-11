@@ -99,8 +99,8 @@ ul#accordion {
 ul#accordion li { display: block; float: left; }
 ul#accordion li a { display: block; overflow: hidden; height: 75px; width: 75px; }
 ul#accordion li a:hover { text-decoration: none; }
-ul#accordion li p { display: block; margin-left: 75px; padding: 0; width: 415px; height: 100%; }
-ul#accordion li img { position: absolute; }
+ul#accordion li p { display: block; margin-left: 80px; padding: 0; width: 415px; height: 100%; }
+ul#accordion li img { position: absolute; width: 75px; }
 ul#accordion li a#default { width: 500px; }
 
 body#home #navigation a.home,
