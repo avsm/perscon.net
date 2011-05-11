@@ -87,6 +87,22 @@ blockquote {
 #navigation a { text-decoration: none; color: black; font-size: 1em; font-weight: bold; }
 #navigation a:hover { text-decoration: none; color: black; font-size: 1em; border-bottom: 1px solid #FFF }
 
+ul#accordion { 
+  font: normal 15px/17px Georgia, serif; 
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  width: 660px;
+  margin:auto;
+}
+ul#accordion li { display: block; float: left; }
+ul#accordion li a { display: block; overflow: hidden; height: 75px; width: 75px; }
+ul#accordion li a:hover { text-decoration: none; }
+ul#accordion li p { display: block; margin-left: 75px; padding: 0; width: 415px; height: 100%; }
+ul#accordion li img { position: absolute; }
+ul#accordion li a#default { width: 500px; }
+
 body#home #navigation a.home,
 body#overview #navigation a.overview,
 body#blog #navigation a.blog,

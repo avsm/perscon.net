@@ -2,6 +2,7 @@
 title: Home
 layout: default
 section: home
+js: [jquery-1.6.min, accordion]
 ---
 
 <div id="about" class="caption-list">
@@ -24,28 +25,41 @@ section: home
   </ul>
 </div>
 
-<div id="impact" class="caption-list">
+<div id="impact">
   <h1>
     Wide-ranging potential impact
   </h1>
-  <ul>
+  <ul id="accordion" >
     <li>
-      <img class="left-bullet" src="images/globe.png" alt="impact on consumers">
-      Lets you understand and exploit your networked digital
-      data while increasing your online privacy 
+      <a id="default">
+        <img src="images/globe.png" alt="impact on consumers" />
+        <p>
+          Lets you understand and exploit your networked digital
+          data while increasing your online privacy 
+        </p>
+      </a>
     </li>
     <li>
-      <img class="right-bullet" src="images/globe.png" alt="impact on businesses">
-      Increases businesses&rsquo; opportunities to extract value from
-      presently unavailable sources of individuals&rsquo; personal data by
-      ensuring processing is privacy preserving and socially
-      respectful 
+      <a>
+        <img src="images/globe.png" alt="impact on businesses" />
+        <p>
+          Increases businesses&rsquo; opportunities to extract value from
+          presently unavailable sources of individuals&rsquo; personal data by
+          ensuring processing is privacy preserving and socially
+          respectful 
+        </p>
+      </a>
     </li>
     <li>
-      <img class="left-bullet" src="images/globe.png" alt="impact on regulators">
-      Supports an ecology of new and existing applications using
-      disparate sources of personal data while respecting individual&rsquo;s
-      privacy
+      <a>
+        <img src="images/globe.png" alt="impact on regulators" />
+        <p>
+          Supports an ecology of new and existing applications using
+          disparate sources of personal data while respecting individual&rsquo;s
+          privacy
+        </p>
+      </a>
     </li>
   </ul>
 </div>
+

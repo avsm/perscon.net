@@ -7,7 +7,6 @@
     <link rel="alternate" type="application/atom+xml" href="/feeds/atom.xml" title="Personal Containers">
   </head>
 
-
   <body id="{{ page.section }}">
     <div id="wrap">
       <div id="header">
@@ -49,7 +48,12 @@
       try {
       var pageTracker = _gat._getTracker("UA-15534567-1");
       pageTracker._trackPageview();
-    } catch(err) {}</script>
+    } catch(err) {}
+    </script>
+
+    {% for script in page.js %}
+	<script src="/js/{{ script }}.js"></script>
+    {% endfor %}
 
   </body>
 </html>
