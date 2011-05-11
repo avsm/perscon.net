@@ -132,13 +132,12 @@ body#people #navigation a.people
 #right-column { width: 240px; float: right; min-height: 600px}
 
 #footer { 
-  background: #fff url(/images/rev-gradient.png) repeat-x; 
+  background: transparent; 
   padding: 1ex 0;
   clear: both; 
   color: #666; 
   font-size: .8em; 
   text-align: center;
-  border-top: 1px solid #999; 
 }
 
 /* Front page */
