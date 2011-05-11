@@ -112,13 +112,12 @@ body#people #navigation a.people
 	border-bottom: 0.5ex solid #222; 
 }
 
-
 #logo { color: #000; text-decoration: none; font: normal 2.4em Georgia, serif; }
-#logo a { text-decoration: none; color: #000000 }
+#logo a { text-decoration: none; color: #000000; }
 #logo img { float: left; padding-right: 15px; }
 
 #slogan { font-size: .9em; color: #a1a1a1; }
-#slogan a { text-decoration: none; color: #000000 }
+#slogan a { text-decoration: none; color: #000000; }
 
 #main { 
   margin: 0 auto; 
@@ -127,22 +126,6 @@ body#people #navigation a.people
 }
 
 #one-column { float: left; padding: 0 2em; }
-
-#about { }
-#impact { }
-#impact h1 { text-align: right; } 
-
-.caption-list { 
-  display: block; 
-  font: normal 1.2em Georgia, serif; 
-}
-
-.caption-list ul { padding: 0 5em; margin: 0; list-style-type: none; overflow: hidden; }
-.caption-list li { clear: both; }
-.caption-list img { margin: 1ex 1em; vertical-align: middle; }
-
-img.left-bullet { float: left; height: auto; }
-img.right-bullet { float: right; height: auto; }
 
 #left-column { width: 500px; float: left; padding-left: 40px; }
 #left-column ul { padding: 0; margin: 0 0 0 30px; }
@@ -157,6 +140,32 @@ img.right-bullet { float: right; height: auto; }
   color: #666; 
   font-size: .8em; 
   text-align: center;
+}
+
+/* Front page */
+
+#front-page h1 { text-align: center; } 
+#front-page ul { 
+  display: block; 
+  font: normal 15px/17px Georgia, serif; 
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+#front-page ul li { 
+    list-style: none; 
+    display: table; 
+}
+#front-page ul li img { 
+    display: table-cell; 
+    margin: 1ex 1em; 
+    width: 75px; 
+    vertical-align: middle; 
+}
+#front-page ul li p { 
+    display: table-cell; 
+    height: auto; 
+    vertical-align: middle; 
 }
 
 /* People page */
