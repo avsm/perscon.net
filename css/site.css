@@ -115,7 +115,7 @@ body#people #navigation a.people
 #logo img { float: left; padding-right: 15px; }
 
 #slogan { font-size: .9em; color: #a1a1a1; }
-#slogan a { text-decoration: none; color: #000000; }
+#slogan a { text-decoration: none; color: #555555; }
 
 #main { 
   margin: 0 auto; 
