@@ -65,7 +65,7 @@ blockquote {
 /*** Layout ****/
 
 #wrap { 
-  width: 960px;
+  width: 780px /* 960px */; 
   margin: 0 auto;
   background: white; 
   border-left: 1px solid #999; 

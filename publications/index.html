@@ -1,10 +1,10 @@
 ---
-title: Personal Containers Blog
+title: Publications
 layout: blog
-section: blog
+section: publications
 ---
 
-{% for post in site.categories.blog limit:5 %}
+{% for post in site.categories.publications limit:5 %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   {{ post.content }}
   <br />
