@@ -74,10 +74,8 @@ blockquote {
 }
  
 #header { 
-  background: transparent /* url(/images/header.png) */ repeat-x; 
+  background: #fff url(/images/rev-gradient.png) repeat-x; 
   padding: 10px 20px 10px 20px; 
-  border-left: 1px solid #FFF; 
-  border-right: 1px solid #FFF; 
   border-bottom: 1px solid #999; 
 }
 
@@ -117,7 +115,7 @@ body#people #navigation a.people
 #logo img { float: left; padding-right: 15px; }
 
 #slogan { font-size: .9em; color: #a1a1a1; }
-#slogan a { text-decoration: none; color: #000000; }
+#slogan a { text-decoration: none; color: #555555; }
 
 #main { 
   margin: 0 auto; 
@@ -125,7 +123,7 @@ body#people #navigation a.people
   clear: left; 
 }
 
-#one-column { float: left; padding: 0 2em; }
+#one-column { float: left; padding: 0 2em; clear: both; }
 
 #left-column { width: 500px; float: left; padding-left: 40px; }
 #left-column ul { padding: 0; margin: 0 0 0 30px; }
@@ -134,8 +132,8 @@ body#people #navigation a.people
 #right-column { width: 240px; float: right; min-height: 600px}
 
 #footer { 
-  background: #FFF /* url(/images/footer.png) */ repeat-x top center; 
-  padding: 50px 40px 5px 40px; 
+  background: transparent; 
+  padding: 1ex 0;
   clear: both; 
   color: #666; 
   font-size: .8em; 
@@ -146,15 +144,18 @@ body#people #navigation a.people
 
 #front-page h1 { text-align: center; } 
 #front-page ul { 
-  display: block; 
-  font: normal 15px/17px Georgia, serif; 
-  margin: auto;
-  padding: 0;
-  overflow: hidden;
+    display: block; 
+    float: left;
+    font: normal 15px/17px Georgia, serif; 
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
 }
 #front-page ul li { 
     list-style: none; 
-    display: table; 
+    margin: auto;
+    display: table;
+    float: left;
 }
 #front-page ul li img { 
     display: table-cell; 
@@ -167,6 +168,8 @@ body#people #navigation a.people
     height: auto; 
     vertical-align: middle; 
 }
+
+ul.three-col { width: 32%; }
 
 /* People page */
 
