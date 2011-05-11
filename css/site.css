@@ -142,7 +142,7 @@ body#people #navigation a.people
 
 /* Front page */
 
-#front-page h1 { text-align: center; } 
+#front-page h1 { text-align: center; padding: 1em 0;} 
 #front-page ul { 
     display: block; 
     float: left;
@@ -169,7 +169,8 @@ body#people #navigation a.people
     vertical-align: middle; 
 }
 
-ul.three-col { width: 32%; }
+#front-page ul.three-col { width: 32%; }
+#front-page ul.one-col { width: 100%; }
 
 /* People page */
 
