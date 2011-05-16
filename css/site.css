@@ -32,14 +32,14 @@ a:active  { color: #4071d3; text-decoration: none; }
 h1 { 
   margin: 0 0 10px 0; 
   padding-bottom: 1px; 
-  font: normal 1.8em/2em Georgia, serif; 
+  font: normal 1.8em/2em sans-serif; 
   clear: both;
 }
 
 h2 { 
   margin: 20px 0 10px; 
   padding-bottom: 10px; 
-  font: normal 1.65em Georgia, serif; 
+  font: normal 1.65em sans-serif; 
   clear: both;
 }
 
@@ -109,11 +109,11 @@ body#people #navigation a.people
 	border-bottom: 0.5ex solid #222; 
 }
 
-#logo { color: #000; text-decoration: none; font: normal 2.4em Georgia, serif; }
+#logo { color: #000; text-decoration: none; font: normal 2.4em sans-serif; }
 #logo a { text-decoration: none; color: #000000; }
 #logo img { float: left; padding-right: 15px; }
 
-#slogan { font-size: .9em; color: #a1a1a1; }
+#slogan { font-size: 1.15em; color: #b1b1b1; }
 #slogan a { text-decoration: none; color: #555555; }
 
 #main { 
