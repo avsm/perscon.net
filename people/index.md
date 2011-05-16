@@ -13,7 +13,7 @@ Team
   <img class="aligncenter" src="/images/people/sa.png" alt="">
   Shakir Ali
 </a></div>
-<div class="person"><a href="">
+<div class="person"><a href="http://elsmorian.com/">
   <img class="aligncenter" src="/images/people/cce.png" alt="">
   Chris Elsmore
 </a></div>
@@ -21,11 +21,11 @@ Team
   <img class="aligncenter" src="/images/people/jog.png" alt="">
   James Goulding
 </a></div>
-<div class="person"><a href="">
+<div class="person"><a href="http://www.cs.nott.ac.uk/~drm/">
   <img class="aligncenter" src="/images/people/drm.png" alt="">
   Derek McAuley
 </a></div>
-<div class="person"><a href="">
+<div class="person"><a href="http://anil.recoil.org/">
   <img class="aligncenter" src="/images/people/avsm.png" alt="">
   Anil Madhavapeddy
 </a></div>
@@ -33,7 +33,7 @@ Team
   <img class="aligncenter" src="/images/people/rm.png" alt="">
   Rupert Meese
 </a></div>
-<div class="person"><a href="">
+<div class="person"><a href="http://www.cs.nott.ac.uk/~rmm/">
   <img class="aligncenter" src="/images/people/rmm.png" alt="">
   Richard Mortier
 </a></div>
