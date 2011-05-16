@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<article class="pub {{ page.layout | xml_escape }}">
+  <span class="title"><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></span>
+  {% if page.uri %}
+  <span class="uri">[<a href="{{ page.uri }}">link</a>]</span>
+  {% endif %}
+
+  {% if page.pdf %}
+  <span class="pdf">[<a href="{{ page.pdf }}">pdf</a>]</span>
+  {% endif %}
+
+  {% if page.slides %}
+  <span class="slides">[<a href="{{ page.slides }}">slides</a>]</span>
+  {% endif %}
+
+  {% if page.video %}
+  <span class="video">[<a href="{{ page.video }}">video</a>]</span>
+  {% endif %}
+
+  <br />
+  <span class="authors">{{ page.authors | xml_escape }}</span>
+  <span class="venue">{{ page.venue | xml_escape }}</span><br />
+  {% if page.address %}
+  <span class="address">{{ page.address | xml_escape }}</span>
+  {% endif %}
+
+  <span class="date">{{ page.date | date_to_long_string }}</span>
+
+  {% if page.notes %}
+  <span class="notes">{{ page.notes | xml_escape }}</span>
+  {% endif %}
+
+  <p>
+    <em>Abstract</em>&mdash;{{ content }}
+  </p>
+</article>
+
+
+<!--
+<nav class="articles-nav">
+  <p>
+    {% if page.previous %}
+    <span class="nav-previous">
+      &larr; 
+      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" accesskey="p">
+        prev
+      </a>
+    </span>
+    {% endif %}
+
+    {% if page.previous and page.next %}
+    <span class="pipe">|</span>
+    {% endif %}
+
+    {% if page.next %}
+    <span class="nav-next">
+      <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" accesskey="n">
+        succ
+      </a>
+      &rarr;
+    </span>
+    {% endif %}
+  </p>
+</nav>
+-->

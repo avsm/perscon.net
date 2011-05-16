@@ -21,7 +21,7 @@ body {
   color: #2a3845; 
   margin: 0; 
   padding: 0; 
-  background: #E5E6E8  url(/images/gradient.jpg) repeat-x;
+  background: #E5E6E8 url(/images/gradient.jpg) repeat-x;
 }
 
 a:link    { color: #4071d3; text-decoration: none; }
@@ -32,7 +32,7 @@ a:active  { color: #4071d3; text-decoration: none; }
 h1 { 
   margin: 0 0 10px 0; 
   padding-bottom: 1px; 
-  font: normal 1.65em Georgia, serif; 
+  font: normal 1.8em/2em Georgia, serif; 
   clear: both;
 }
 
@@ -86,7 +86,6 @@ blockquote {
 #navigation a:hover { text-decoration: none; color: black; font-size: 1em; border-bottom: 1px solid #FFF }
 
 ul#accordion { 
-  font: normal 15px/17px Georgia, serif; 
   list-style: none; 
   margin: 0;
   padding: 0;
@@ -123,9 +122,9 @@ body#people #navigation a.people
   clear: left; 
 }
 
-#one-column { float: left; padding: 0 2em; clear: both; }
+#one-column { float: left; padding: 0 3em; clear: both; }
 
-#left-column { width: 500px; float: left; padding-left: 40px; }
+#left-column { width: 500px; float: left; padding: 0 0 0 3em; }
 #left-column ul { padding: 0; margin: 0 0 0 30px; }
 #left-column ol { padding: 0; margin: 0 0 0 30px; }
 
@@ -146,7 +145,6 @@ body#people #navigation a.people
 #front-page ul { 
     display: block; 
     float: left;
-    font: normal 15px/17px Georgia, serif; 
     margin: auto;
     padding: 0;
     overflow: hidden;
@@ -172,6 +170,8 @@ body#people #navigation a.people
 #front-page ul.three-col { width: 32%; }
 #front-page ul.one-col { width: 100%; }
 
+p.read-more { text-align: right; }
+
 /* People page */
 
 #people {
@@ -185,21 +185,20 @@ body#people #navigation a.people
   clear: right;
   text-align: center;
 }
-#people .person img { height: 120px; width: 90px; }
+#people .person img { height: 100px; width: auto; }
 
 /* Publications */
-                  
-ul#publications { padding: 0 0 1ex; margin: 0; list-style-type: none; overflow: hidden; }
-ul#publications li { clear: both; padding: 0 0 1ex; border-bottom: 1px dotted #666; }
-ul#publications li.paper { }
-ul#publications li.talk { }
-                                        
-span.authors { }
-span.title { display: block; font-variant: small-caps; }
-span.venue { display: block; font-style: italic; }
-span.address:after { content: "."; }
-span.date:after { content: "."; }
-span.note:after { content: "."; }
+
+.pub {
+  font: normal .9em/1.1em Arial, Helvetica, sans-serif; 
+  margin: 1ex 0;
+}
+.pub span.title { font-weight: bold; }
+.pub span.authors { display: block; font-style: italic; }
+.pub span.venue:after { content: "."; }
+.pub span.address:after { content: "."; }
+.pub span.date:after { content: "."; }
+.pub span.note:after { content: "."; }
 
 /** Images & Attachment **/
 
