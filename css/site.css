@@ -128,7 +128,13 @@ body#people #navigation a.people
 #left-column ul { padding: 0; margin: 0 0 0 30px; }
 #left-column ol { padding: 0; margin: 0 0 0 30px; }
 
-#right-column { width: 240px; float: right; min-height: 600px}
+#right-column { 
+  width: 235px; 
+  float: right; 
+  min-height: 600px;
+  margin: 0; 
+  padding: 0;
+}
 
 #footer { 
   background: transparent; 
