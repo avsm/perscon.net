@@ -145,6 +145,51 @@ body#people #navigation a.people
   text-align: center;
 }
 
+/* Overview page */
+.overview_bar {
+  height: 205px;
+}
+
+.overview_bar img {
+  vertical-align: middle;
+  float: left;
+}
+
+.overview_text {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  float: left;
+  margin-top: 5px;
+}
+
+#overview1 {
+  margin-left: 10px;
+}
+#overview2 {
+  margin-left: 210px;
+}
+#overview3 {
+  margin-left: 450px;
+}
+
+.project_stage {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.project_icon {
+  position: relative;
+  float: right;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.project_title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 /* Front page */
 
 #front-page h1 { text-align: center; padding: 1em 0;} 
