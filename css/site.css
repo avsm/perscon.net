@@ -30,22 +30,21 @@ a:hover   { color: #000000; text-decoration: underline; }
 a:active  { color: #4071d3; text-decoration: none; }
 
 h1 { 
-  margin: 0 0 10px 0; 
-  padding-bottom: 1px; 
   font: normal 1.8em/2em sans-serif; 
   clear: both;
+  margin: 0;
+  padding: 0;
 }
 
 h2 { 
-  margin: 20px 0 10px; 
-  padding-bottom: 10px; 
   font: normal 1.65em sans-serif; 
   clear: both;
+  margin: 0;
+  padding: 1em 0 0.5em 0;
 }
 
 h3 { 
   color: #000; 
-  margin: 10px 0; 
   padding-bottom: 10px; 
   font: bold 1em Arial, Helvetica, sans-serif; 
   clear: both;
@@ -109,11 +108,20 @@ body#people #navigation a.people
 	border-bottom: 0.5ex solid #222; 
 }
 
-#logo { color: #000; text-decoration: none; font: normal 2.4em sans-serif; }
+#logo { 
+  color: #000; 
+  font: normal 2.4em Arial, Helvetica, sans-serif; 
+}
 #logo a { text-decoration: none; color: #000000; }
+/*
 #logo img { float: left; padding-right: 15px; }
+*/
 
-#slogan { font-size: 1.15em; color: #b1b1b1; }
+#slogan { 
+  color: #b1b1b1; 
+  font: normal 1.1em Arial, Helvetica, sans-serif; 
+  padding-left: 1.5px;
+}
 #slogan a { text-decoration: none; color: #555555; }
 
 #main { 
@@ -192,7 +200,15 @@ body#people #navigation a.people
 
 /* Front page */
 
-#front-page h1 { text-align: center; padding: 1em 0;} 
+#front-page {
+  overflow: hidden;
+  width: 100%;
+  padding: 0.5em 0 0;
+}
+#front-page h1 { 
+  text-align: center; 
+  padding: 1em 0 0.5em;
+} 
 #front-page ul { 
     display: block; 
     float: left;
@@ -218,7 +234,7 @@ body#people #navigation a.people
     vertical-align: middle; 
 }
 
-#front-page ul.three-col { width: 32%; }
+#front-page ul.three-col { width: 33%; }
 #front-page ul.one-col { width: 100%; }
 
 p.read-more { text-align: right; }
@@ -226,12 +242,12 @@ p.read-more { text-align: right; }
 /* People page */
 
 #people {
-  padding-bottom: 1ex;
   overflow: hidden;
+  width: 100%;
 }
 #people .person {
-  width: 9em;
-  padding: 1ex 0.5em;
+  width: 11em;
+  padding: 0 0.5em 2em;
   float: left;
   clear: right;
   text-align: center;
@@ -242,7 +258,7 @@ p.read-more { text-align: right; }
 
 article { display: block; }
 .pub {
-  font: normal .9em/1.2em Arial, Helvetica, sans-serif; 
+  font: normal .9em/1.3em Arial, Helvetica, sans-serif; 
   margin: 1em 0;
 }
 .pub span.title { font-weight: bold; }
