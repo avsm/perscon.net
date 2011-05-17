@@ -1,5 +1,6 @@
 ---
 title: Documentation
+section: docs
 layout: blog
 ---
 

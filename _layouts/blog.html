@@ -17,14 +17,14 @@ layout: base
         <h1>Subscribe</h1>
         <ul>
           <li class="rss">
-            <a href="/feeds/atom.xml">
+            <a href="/feeds/{{ page.section }}/atom.xml">
               <img src="/images/rss.png" alt="Atom Feed" name="rsssubscribe" 
                    width="32" height="32" border="0" align="middle" id="rsssubscribe"/>
               Subscribe by Atom
             </a>
           </li>
           <li class="rss">
-            <a href="/feeds/rss.xml">
+            <a href="/feeds/{{ page.section }}/rss.xml">
               <img src="/images/rss.png" alt="RSS Feed" name="rsssubscribe" 
                    width="32" height="32" border="0" align="middle" id="rsssubscribe"/>
               Subscribe by RSS
