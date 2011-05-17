@@ -102,7 +102,7 @@ ul#accordion li a#default { width: 500px; }
 body#home #navigation a.home,
 body#overview #navigation a.overview,
 body#blog #navigation a.blog,
-body#publications #navigation a.publications,
+body#docs #navigation a.docs,
 body#people #navigation a.people
 { 
 	border-bottom: 0.5ex solid #222; 
@@ -254,7 +254,7 @@ p.read-more { text-align: right; }
 }
 #people .person img { height: 100px; width: auto; }
 
-/* Publications */
+/* Documentation */
 
 article { display: block; }
 .pub {
