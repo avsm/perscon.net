@@ -274,7 +274,7 @@ article { display: block; }
 
 p.more { display: block; float: right; clear: right; margin: 1em 0 0;}
 
-.bullet { display: block; overflow: hidden; }
+.bullet { display: block; overflow: hidden; padding: 0 2em; }
 .bullet a { text-decoration: none; }
 .bullet img { float: left; height: 4em; vertical-align: middle; border: none; }
 .bullet p { margin: 1.25em 0 0 6em; }

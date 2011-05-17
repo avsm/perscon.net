@@ -7,8 +7,8 @@ section: overview
 <img class="alignright picture" src="/graffle/stage2.png" alt="Your many data sources" />
                                      
 Personal Containers is a research program solving the impediments
-towards gaining control of our personal data: data *about us*
-and data *by us*.  
+towards gaining control of our personal data, both *about us*
+and *by us*, over our lifetimes.
 
 A complete solution will entail solving a wide range of challenges,
 from social to economic to policy, in addition to the technical.  The
@@ -16,7 +16,7 @@ infrastructure we are currently building to allow us to meet these
 challenges starts from a single very simple premise:
 
 <h4>
-  Individuals should be able to control access to and use of their data
+  Individuals require control over access to and use of their data
 </h4>
 
 <img class="alignleft picture" src="/graffle/stage1.png" alt="Privacy is paramount" />
@@ -45,28 +45,34 @@ working on:
 <div class="bullet">
   <a href="dataware.html"><img src="/graffle/stage3-sm.png" /></a> 
   <p>
-    <a href="dataware.html">Dataware</a> is ...
+    <a href="dataware.html">Dataware</a>, an ecosystem supporting
+    processing of your data by others for mutual benefit
   </p>
 </div>
 
 <div class="bullet">
   <a href="amara.html"><img src="/icons/refresh-48.png" /></a>
   <p>
-    <a href="amara.html">Amara</a> is ...
+    <a href="amara.html">Amara</a>, an infrastructure for those
+    users who want their own personal cloud without the hassle
   </p>
 </div>
 
 <div class="bullet">
   <a href="cloud-signpost.html"><img src="/icons/map-48.png" /></a>
   <p>
-    <a href="cloud-signpost.html">Cloud Signpost</a> is ...
+    Our <a href="cloud-signpost.html">Cloud Signpost</a>, 
+    integrating connectivity between your personal devices and 
+    services on the public Internet
   </p>
 </div>
 
 <div class="bullet">
   <a href="dns-me.html"><img src="/icons/id_card-48.png" /></a>
   <p>
-    <a href="dns-me.html">dns.me</a> is ...
+    <a href="dns-me.html">dns.me</a>, a one-stop identity server
+    emphasising ease-of-use and device integration without relying on
+    third-party infrastructure
   </p>
 </div>
 
