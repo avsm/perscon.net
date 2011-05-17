@@ -64,7 +64,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2011-05-16 10:08:18 -0700</string>
+	<string>2011-05-16 11:20:55 -0700</string>
 	<key>Modifier</key>
 	<string>Anil Madhavapeddy</string>
 	<key>NotesVisible</key>
@@ -1256,7 +1256,7 @@
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{133.14, 623}, {93.9103, 93.9103}}</string>
+					<string>{{115.28, 630.138}, {87.2119, 87.2119}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1286,7 +1286,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{260.05, 617}, {58.9496, 60.6601}}</string>
+					<string>{{233.138, 624.565}, {54.7449, 56.3334}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1316,7 +1316,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{229.115, 406.582}, {93.9103, 93.9102}}</string>
+					<string>{{206.117, 424.166}, {82.6581, 82.658}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1346,7 +1346,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{158.266, 345.214}, {70.8495, 70.8495}}</string>
+					<string>{{143.756, 370.152}, {62.3604, 62.3604}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1376,7 +1376,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{148.41, 416.063}, {63.3709, 63.3709}}</string>
+					<string>{{135.081, 432.512}, {55.7779, 55.778}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1406,7 +1406,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{252.6, 345.214}, {79.1153, 79.1153}}</string>
+					<string>{{226.788, 370.152}, {69.6358, 69.6359}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1436,7 +1436,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{96.8169, 328}, {278.366, 185.577}}</string>
+					<string>{{89.6702, 355}, {245.013, 163.342}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1485,7 +1485,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{206.464, 156.089}, {87.8082, 87.8083}}</string>
+					<string>{{190.577, 142.513}, {68.6096, 68.6096}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1515,7 +1515,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{144.747, 80.6051}, {197.183, 197.183}}</string>
+					<string>{{142.353, 83.5331}, {154.071, 154.071}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1545,7 +1545,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{209.987, 583.895}, {139.317, 139.317}}</string>
+					<string>{{186.646, 593.822}, {129.379, 129.38}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -1553,7 +1553,7 @@
 					<key>ImageID</key>
 					<integer>18</integer>
 					<key>Rotation</key>
-					<real>37</real>
+					<real>36.999996185302734</real>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -1745,14 +1745,12 @@
 		<integer>142</integer>
 		<key>RightSidebar</key>
 		<false/>
-		<key>ShowRuler</key>
-		<true/>
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-31, 219}, {622, 557}}</string>
+		<string>{{-38, 181}, {637, 602}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
