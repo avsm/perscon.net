@@ -4,9 +4,13 @@ layout: blog
 section: blog
 ---
 
-{% for post in site.categories.blog limit:5 %}
+{% for post in site.categories.blog %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  {{ post.content }}
-  <br />
+  <p>
+    {{ post.excerpt }}
+  </p>
+  <p class="more">
+    <i><a href="{{ post.url }}">Read more...</a></i>
+  </p>
   <em>Posted on {{ post.date | date_to_long_string }} by {{ post.author | xml_escape }}.</em>
 {% endfor %}

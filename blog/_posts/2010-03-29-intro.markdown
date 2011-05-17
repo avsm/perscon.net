@@ -2,6 +2,7 @@
 layout: post
 title: Opening a website
 author: Anil Madhavapeddy
+excerpt: Accessing your personal data
 ---
 
 We've been working away at building a new type of database to help

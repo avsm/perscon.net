@@ -2,6 +2,7 @@
 layout: post
 title: Pulling together a user interface
 author: Anil Madhavapeddy
+excerpt: Shiny visualizations
 ---
 
 We've been [hacking](http://github.com/avsm/perscon) away on fleshing out the <a href="http://code.google.com/appengine">App Engine</a> node for personal containers.  We're building this node first because, crucially, deploying an App Engine VM is free to anyone with a Google account.

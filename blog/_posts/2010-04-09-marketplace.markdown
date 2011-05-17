@@ -2,6 +2,7 @@
 layout: post
 title: A Personal Containers Marketplace
 author: Richard Mortier
+excerpt: Building a personal data ecosystem
 ---
 
 
