@@ -15,9 +15,9 @@ section: overview
 
 Personal Containers is a research program solving the impediments towards gaining control of our own personal data. We divide the problem into three stages: 
 
-1. how the individual can <i>privately</i> manage their own <a href="#nodes">information</a> without giving them up to 3rd parties.
-2. connect into a <a href="#connectivity">personal cloud</a> that works across modern impediments such as NATs and VPNs.
-3. use Internet infrastructure to socialise and monetise their own data via <a href="#compute">privacy-sensitive computation</a>.
+1. how individuals can <i>privately</i> manage their <a href="#nodes">own data</a> without giving them up to 3rd parties.
+2. connect into a <a href="#connectivity">personal cloud</a> that weaves through impediments such as NATs and VPNs.
+3. use the Internet to socialise and monetise their data via <a href="#compute">privacy-sensitive computation</a>.
 
 <a name="nodes"><img class="project_icon" src="/graffle/stage1-sm.png"></img></a>
 <span class="project_stage">1. Secure Nodes</span>
