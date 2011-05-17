@@ -3,6 +3,9 @@ title: Talks
 layout: blog
 ---
 
+Talks
+=====
+
 {% for post in site.categories.talks %}
 <article class="pub {{ post.layout | xml_escape }}">
   <span class="title"><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></span>

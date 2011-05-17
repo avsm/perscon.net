@@ -5,7 +5,7 @@ layout: blog
 ---
 
 [Papers](/docs/papers/)
-------
+=======
 
 {% for post in site.categories.papers limit:3 %}
 <div class="pub paper">
@@ -42,7 +42,7 @@ layout: blog
 
 
 [Talks](/docs/talks/)
------
+======
 
 {% for post in site.categories.talks limit:3 %}
 <article class="pub talk">

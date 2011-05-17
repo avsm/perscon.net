@@ -3,6 +3,9 @@ title: Papers
 layout: blog
 ---
 
+Papers
+======
+
 {% for post in site.categories.papers %}
 <article class="pub {{ post.layout | xml_escape }}">
   <span class="title"><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></span>

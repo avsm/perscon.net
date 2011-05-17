@@ -30,17 +30,17 @@ a:hover   { color: #000000; text-decoration: underline; }
 a:active  { color: #4071d3; text-decoration: none; }
 
 h1 { 
-  font: normal 1.8em/2em sans-serif; 
-  clear: both;
-  margin: 0;
-  padding: 0;
-}
-
-h2 { 
   font: normal 1.65em sans-serif; 
   clear: both;
   margin: 0;
   padding: 1em 0 0.5em 0;
+}
+
+h2 { 
+  font: normal 1.4em sans-serif; 
+  clear: both;
+  margin: 0;
+  padding: 1em 0 0;
 }
 
 h3 { 
@@ -113,9 +113,6 @@ body#people #navigation a.people
   font: normal 2.0em Arial, Helvetica, sans-serif; 
 }
 #logo a { text-decoration: none; color: #000000; }
-/*
-#logo img { float: left; padding-right: 15px; }
-*/
 
 #slogan { 
   color: #b1b1b1; 
@@ -207,6 +204,7 @@ body#people #navigation a.people
   padding: 0.5em 0 0;
 }
 #front-page h1 { 
+  font: normal 1.8em/2em sans-serif; 
   text-align: center; 
   padding: 1em 0 0.5em;
 } 
@@ -245,20 +243,20 @@ body#people #navigation a.people
   width: 100%;
 }
 #people .person {
-  width: 11em;
-  padding: 0 0.5em 2em;
+  width: 10em;
+  padding: 0 0.5em 2em 0;
   float: left;
   clear: right;
   text-align: center;
 }
-#people .person img { height: 100px; width: auto; }
+#people .person img { height: 100px; width: auto; margin-bottom: 0.5em; }
 
 /* Documentation */
 
 article { display: block; }
 .pub {
   font: normal .9em/1.3em Arial, Helvetica, sans-serif; 
-  margin: 1em 0;
+  padding: 0 0 1em;
 }
 .pub span.title { font-weight: bold; }
 .pub span.authors { display: block; font-style: italic; }
@@ -267,7 +265,7 @@ article { display: block; }
 .pub span.date:after { content: "."; }
 .pub span.note:after { content: "."; }
 
-p.more { display: block; float: right; }
+p.more { display: block; float: right; clear: right; margin: 1em 0 0;}
 
 /** Images & Attachment **/
 
@@ -282,6 +280,7 @@ p.more { display: block; float: right; }
 
 #comment { width: 100%; }
 .alt { margin: 0; padding: 10px; }
+#comments { padding-top: 2em; }
 #comments ol { list-style-type: none; line-height: 18px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 10px; padding-left: 5px; }
 #comments ul li { list-style-type: none; list-style-image: none; list-style-position: outside; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 5px; padding-top: 5px; padding-right: 0px; padding-bottom: 0px; padding-left: 0pt; }
 #left-column ol.commentlist{ margin-left: 0px}

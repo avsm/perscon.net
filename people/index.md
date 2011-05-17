@@ -5,7 +5,7 @@ section: people
 ---
 
 Team
-----
+====
 
 +-- {#people}
 
@@ -41,7 +41,7 @@ Team
 =--
 
 Mailing List
-------------
+============
 
 The personal container mailing list is hosted at Google Groups at:
 <http://groups.google.com/group/perscon?hl=en> and you can e-mail the
@@ -49,7 +49,7 @@ list at <perscon@googlegroups.com>.
 
 
 Funding
--------
+=======
 
 We gratefully acknowledge funding from the RCUK Horizon Digital
 Economy Research Hub grant, EP/G065802/1. 
