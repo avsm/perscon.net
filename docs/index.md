@@ -7,7 +7,7 @@ layout: blog
 ------
 
 {% for post in site.categories.papers limit:3 %}
-<article class="pub paper">
+<div class="pub paper">
   <span class="title"><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></span>
   {% if post.uri %}
   <span class="uri">[<a href="{{ post.uri }}">link</a>]</span>
@@ -30,8 +30,15 @@ layout: blog
   <span class="venue">{{ post.venue | xml_escape }}</span>
   <span class="date">{{ post.date | date_to_long_string }}</span>
 
-</article>
+</div>
 {% endfor %}
+
+{% for post in site.categories.papers limit:1 offset:3 %}
+<p class="more">
+  <a href="/docs/papers/">More...</a>
+</p>
+{% endfor %}
+
 
 [Talks](/docs/talks/)
 -----
@@ -61,4 +68,11 @@ layout: blog
   <span class="date">{{ post.date | date_to_long_string }}</span>
 
 </article>
+{% endfor %}
+
+
+{% for post in site.categories.talks limit:1 offset:3 %}
+<p class="more">
+  <a href="/docs/talks/">More...</a>
+</p>
 {% endfor %}
