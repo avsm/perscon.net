@@ -5,18 +5,18 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>Personal Containers</title>
-  <link type="application/atom+xml" rel="self" href="http://perscon.net/feeds/atom.xml"/>
-  <link href="http://perscon.net/"/>
+  <title>Personal Containers Blog</title>
+  <link type="application/atom+xml" rel="self" href="http://perscon.net/feeds/blog/atom.xml"/>
+  <link href="http://perscon.net/blog/"/>
   
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://perscon.net/</id>
+  <id>http://perscon.net/blog/</id>
   <author>
     <name>Anil Madhavapeddy</name>
     <email>anil@recoil.org</email>
   </author>
 
-  {% for post in site.posts %}
+  {% for post in site.categories.blog %}
   <entry>
     <id>http://perscon.net{{ post.id }}</id>
     <link type="text/html" rel="alternate" href="http://perscon.net{{ post.url }}"/>

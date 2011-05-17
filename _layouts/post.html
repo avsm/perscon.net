@@ -10,16 +10,28 @@ layout: default
   <em>Posted on {{ page.date | date_to_long_string }} by {{ page.author | xml_escape }}.</em>
 </article>
 
+<!-- how is this supposed to work with multiple post categories?!
 <nav class="articles-nav">
   <p>
-    {% if page.previous %}
-    <span class="nav-previous">&larr; <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" accesskey="p">prev</a></span>
+    {% if post.previous %}
+    <span class="nav-previous">&larr; 
+      <a href="{{ post.previous.url }}" rel="prev" title="{{ post.previous.title }}" accesskey="p">
+        prev
+      </a>
+    </span>
     {% endif %}
-    {% if page.previous and page.next %}
+
+    {% if post.previous and post.next %}
     <span class="pipe">|</span>
     {% endif %}
-    {% if page.next %}
-    <span class="nav-next"><a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" accesskey="n">succ</a> &rarr;</span>
+
+    {% if post.next %}
+    <span class="nav-next">
+      <a href="{{ post.next.url }}" rel="succ" title="{{ post.next.title }}" accesskey="n">
+        succ
+      </a> &rarr;
+    </span>
     {% endif %}
   </p>
 </nav>
+-->

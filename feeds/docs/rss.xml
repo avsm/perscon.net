@@ -7,15 +7,15 @@ layout: nil
   <channel>
     <title>Personal Containers</title>
     <link>http://perscon.net/</link>
-    <atom:link href="http://perscon.net/feeds/rss.xml" rel="self" type="application/rss+xml" />
-    <description>Personal Containers RSS feed</description>
+    <atom:link href="http://perscon.net/feeds/docs/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Personal Containers Documentation RSS feed</description>
     <copyright>Copyright (C) 2010 Anil Madhavapeddy, Richard Mortier</copyright>
 
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %Z" }}</lastBuildDate>
 
-    {% for post in site.posts %}
+    {% for post in site.categories.docs %}
     <item>
       <title>{{ post.title }}</title>
       <link>http://perscon.net{{ post.url }}</link>
