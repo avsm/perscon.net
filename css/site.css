@@ -17,8 +17,8 @@
 /***** General stuff *****/
 html { overflow-y: scroll; }
 body { 
-  font: normal .9em/1.6em Arial, Helvetica, sans-serif; 
-  color: #2a3845; 
+  font: normal 1.0em Arial, Helvetica, sans-serif; 
+  color: #000000;
   margin: 0; 
   padding: 0; 
   background: #E5E6E8 url(/images/gradient.jpg) repeat-x;
@@ -64,7 +64,7 @@ blockquote {
 /*** Layout ****/
 
 #wrap { 
-  width: 780px /* 960px */; 
+  width: 800px /* 960px */; 
   margin: 0 auto;
   background: white; 
   border-left: 1px solid #999; 
@@ -110,7 +110,7 @@ body#people #navigation a.people
 
 #logo { 
   color: #000; 
-  font: normal 2.4em Arial, Helvetica, sans-serif; 
+  font: normal 2.0em Arial, Helvetica, sans-serif; 
 }
 #logo a { text-decoration: none; color: #000000; }
 /*
@@ -119,7 +119,7 @@ body#people #navigation a.people
 
 #slogan { 
   color: #b1b1b1; 
-  font: normal 1.1em Arial, Helvetica, sans-serif; 
+  font: normal 0.9em Arial, Helvetica, sans-serif; 
   padding-left: 1.5px;
 }
 #slogan a { text-decoration: none; color: #555555; }
@@ -145,17 +145,18 @@ body#people #navigation a.people
 }
 
 #footer { 
+  margin-top: 20px;
   background: transparent; 
   padding: 1ex 0;
   clear: both; 
   color: #666; 
-  font-size: .8em; 
+  font-size: .7em; 
   text-align: center;
 }
 
 /* Overview page */
 .overview_bar {
-  height: 205px;
+  height: 210px;
 }
 
 .overview_bar img {
