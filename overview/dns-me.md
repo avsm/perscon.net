@@ -9,11 +9,11 @@ section: overview
 <img class="alignright picture" src="/icons/id_card-48.png" />
 
 Big players such as Google and Facebook control online identity, while
-users have to do ad-hoc management of their home devices. Recent
-standards such as [OpenID](http://openid.net/) have not taken off. Our
-`dns.me` project is building a one-stop identity server that
-emphasises ease-of-use and device integration, but without depending
-on third-party infrastructure.
+users have to do ad-hoc management of their home devices.  Adoption of
+recent standards for online identity such as
+[OpenID](http://openid.net/) has been very slow.  `dns.me` is building
+a one-stop identity server that emphasises ease-of-use and device
+integration, but without depending on third-party infrastructure.
 
 Users have to deal with a bewildering array of credentials at many
 levels: 3rd party web-sites, local machines and phones, network

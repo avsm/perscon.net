@@ -279,12 +279,16 @@ p.more { display: block; float: right; clear: right; margin: 1em 0 0;}
 .bullet img { float: left; height: 4em; vertical-align: middle; border: none; }
 .bullet p { margin: 1.25em 0 0 6em; }
 
+.right img { float: right; }
+
 /** Images & Attachment **/
 
 .picture { height: 9em; padding: 1em 0; }
 .aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; } 
 .alignleft { float: left; margin-right: 1em; }
 .alignright { float: right; margin-left: 1em; }
+
+img.big { width: 60%; height: auto; padding: 1em 0; }
 
 .wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3; padding-top: 4px; margin: 10px; }
 .wp-caption img { margin: 0; padding: 0; border: 0 none; }

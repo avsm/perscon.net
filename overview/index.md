@@ -6,7 +6,7 @@ section: overview
 
 <img class="alignright picture" src="/graffle/stage2.png" alt="Your many data sources" />
                                      
-Personal Containers is a research program solving the impediments
+Personal Containers is a research programme solving the impediments
 towards gaining control of our personal data, both *about us*
 and *by us*, over our lifetimes.
 
@@ -16,7 +16,8 @@ infrastructure we are currently building to allow us to meet these
 challenges starts from a single very simple premise:
 
 <h4>
-  Individuals require control over access to and use of their data
+  Individuals require control over access to and use of their personal
+  data
 </h4>
 
 <img class="alignleft picture" src="/graffle/stage1.png" alt="Privacy is paramount" />
@@ -43,7 +44,7 @@ this infrastructure, here are some of the projects we're currently
 working on:
 
 <div class="bullet">
-  <a href="dataware.html"><img src="/graffle/stage3-sm.png" /></a> 
+  <a href="dataware.html"><img src="/graffle/stage3.png" /></a> 
   <p>
     <a href="dataware.html">Dataware</a>, an ecosystem supporting
     processing of your data by others for mutual benefit
@@ -51,7 +52,7 @@ working on:
 </div>
 
 <div class="bullet">
-  <a href="amara.html"><img src="/icons/refresh-48.png" /></a>
+  <a href="amara.html"><img src="/icons/refresh.png" /></a>
   <p>
     <a href="amara.html">Amara</a>, an infrastructure for those
     users who want their own personal cloud without the hassle
@@ -59,16 +60,16 @@ working on:
 </div>
 
 <div class="bullet">
-  <a href="cloud-signpost.html"><img src="/icons/map-48.png" /></a>
+  <a href="signpost.html"><img src="/icons/map.png" /></a>
   <p>
-    Our <a href="cloud-signpost.html">Cloud Signpost</a>, 
+    <a href="signpost.html">Signpost</a>, 
     integrating connectivity between your personal devices and 
     services on the public Internet
   </p>
 </div>
 
 <div class="bullet">
-  <a href="dns-me.html"><img src="/icons/id_card-48.png" /></a>
+  <a href="dns-me.html"><img src="/icons/id_card.png" /></a>
   <p>
     <a href="dns-me.html">dns.me</a>, a one-stop identity server
     emphasising ease-of-use and device integration without relying on
@@ -76,30 +77,25 @@ working on:
   </p>
 </div>
 
-{% comment %}
+Other projects with which we are involved and which are very relevant
+to this programme are
 
-<div class="overview_bar">
-<a href="#nodes"><img src="/graffle/stage1.png"></img></a>
-<a href="#connectivity"></a>
-<a href="#compute"><img src="/graffle/stage3.png"></img></a>
-<div class="overview_text" id="overview1">1. Secure Nodes</div>
-<div class="overview_text" id="overview2">2. Easy Connectivity</div>
-<div class="overview_text" id="overview3">3. Private Computation</div>
+<div class="bullet right">
+  <a href="http://www.homenetworks.ac.uk/"><img src="/icons/home.png" /></a>
+  <p>
+    <a href="http://www.homenetworks.ac.uk/">Homework</a>,  a ...
+  </p>
 </div>
 
-. We divide the
-problem into three stages:  
+<div class="bullet right">
+  <a href="http://www.openmirage.org/"><img src="/icons/security.png" /></a>
+  <p>
+    <a href="http://www.openmirage.org/">Mirage</a>, a ...
+  </p>
+</div>
 
-1. how individuals can <i>privately</i> manage their <a
-   href="#nodes">own data</a> without giving them up to 3rd parties. 
-2. connect into a <a href="#connectivity">personal cloud</a> that
-   weaves through impediments such as NATs and VPNs. 
-3. use the Internet to socialise and monetise their data via <a
-   href="#compute">privacy-sensitive computation</a>. 
 
-<a name="nodes"><img class="project_icon"
-src="/graffle/stage1-sm.png"></img></a> 
-<span class="project_stage">1. Secure Nodes</span> 
+{% comment %}
 
 <a name="homework"><img src="/icons/home-48.png"
 class="project_icon"></img></a> 
@@ -125,7 +121,7 @@ information at the <a href="http://www.homenetworks.ac.uk">project
 homepage</a>. 
 
 
-<a name="mirage"><img src="/icons/security-48.png" class="project_icon"></img></a>
+<a name="mirage"><img src="/icons/security.png" class="project_icon"></img></a>
 <span class="project_title">Mirage</span>
 
 The current software stack we store personal data in has been
