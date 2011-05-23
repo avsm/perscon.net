@@ -78,7 +78,7 @@ working on:
 </div>
 
 Other projects with which we are involved and which are very relevant
-to this programme are
+to this programme are:
 
 <div class="bullet right">
   <a href="http://www.homenetworks.ac.uk/"><img src="/icons/home.png" /></a>
