@@ -276,10 +276,14 @@ p.more { display: block; float: right; clear: right; margin: 1em 0 0;}
 
 .bullet { display: block; overflow: hidden; padding: 0 2em; }
 .bullet a { text-decoration: none; }
-.bullet img { float: left; height: 4em; vertical-align: middle; border: none; }
-.bullet p { margin: 1.25em 0 0 6em; }
+.bullet img { height: 4em; vertical-align: middle; border: none; }
+.bullet p { margin: 1.25em 0; }
 
+.left p { margin-left: 6em; }
+.left img { float: left; }
+.right p { margin-right: 6em; } 
 .right img { float: right; }
+
 
 /** Images & Attachment **/
 

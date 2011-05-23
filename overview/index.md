@@ -43,7 +43,7 @@ For those interested in the technical details of how we are building
 this infrastructure, here are some of the projects we're currently
 working on:
 
-<div class="bullet">
+<div class="bullet left">
   <a href="dataware.html"><img src="/graffle/stage3.png" /></a> 
   <p>
     <a href="dataware.html">Dataware</a>, an ecosystem supporting
@@ -51,7 +51,7 @@ working on:
   </p>
 </div>
 
-<div class="bullet">
+<div class="bullet left">
   <a href="amara.html"><img src="/icons/refresh.png" /></a>
   <p>
     <a href="amara.html">Amara</a>, an infrastructure for those
@@ -59,7 +59,7 @@ working on:
   </p>
 </div>
 
-<div class="bullet">
+<div class="bullet left">
   <a href="signpost.html"><img src="/icons/map.png" /></a>
   <p>
     <a href="signpost.html">Signpost</a>, 
@@ -68,7 +68,7 @@ working on:
   </p>
 </div>
 
-<div class="bullet">
+<div class="bullet left">
   <a href="dns-me.html"><img src="/icons/id_card.png" /></a>
   <p>
     <a href="dns-me.html">dns.me</a>, a one-stop identity server
@@ -83,73 +83,20 @@ to this programme are
 <div class="bullet right">
   <a href="http://www.homenetworks.ac.uk/"><img src="/icons/home.png" /></a>
   <p>
-    <a href="http://www.homenetworks.ac.uk/">Homework</a>,  a ...
+    <a href="http://www.homenetworks.ac.uk/">Homework</a> is creating
+    the next generation of domestic networking infrastructure,
+    combining empirical understanding of use with fundamental
+    re-invention of the protocols, models and architectures in a
+    domestic setting
   </p>
 </div>
 
 <div class="bullet right">
   <a href="http://www.openmirage.org/"><img src="/icons/security.png" /></a>
   <p>
-    <a href="http://www.openmirage.org/">Mirage</a>, a ...
+    <a href="http://www.openmirage.org/">Mirage</a> is an exokernel
+    for constructing secure, high-performance network applications
+    across a wide range of platforms from mobile phones to the Xen
+    hypervisor that powers much of the public cloud
   </p>
 </div>
-
-
-{% comment %}
-
-<a name="homework"><img src="/icons/home-48.png"
-class="project_icon"></img></a> 
-<span class="project_title">Homework</span>
-
-By studying the use of computer networks in the home, the Homework
-project is creating the next generation of domestic infrastructure
-that combines empirical understanding of use with a fundamental
-re-invention of the protocols, models and architectures of the
-domestic setting. 
-
-The challenge is to develop techniques and tools that inform users of
-the implications of network changes in terms that they readily
-understand, aiming to develop an infrastructure that can configure and
-repair itself. 
-
-A motivating application is a parent that only wants to permit kids
-access to Facebook after their homework has been completed. Our
-experimental tangible interface permits a parent to insert a physical
-USB "policy device" into the home router to easily activate this
-policy, rather than requiring any software configuration. More
-information at the <a href="http://www.homenetworks.ac.uk">project
-homepage</a>. 
-
-
-<a name="mirage"><img src="/icons/security.png" class="project_icon"></img></a>
-<span class="project_title">Mirage</span>
-
-The current software stack we store personal data in has been
-developed over decades, and is very general-purpsoe.  We are also
-investigating how to *specialise* this infrastructure for much greater
-levels of security and reliability than is currently possible. 
-
-Mirage is an exokernel for constructing secure, high-performance
-network applications across a variety of cloud computing and mobile
-platforms. Code can be developed on a normal OS such as Linux or MacOS
-X, and then compiled into a fully-standalone, specialised microkernel
-that runs under the Xen hypervisor. Since Xen powers most public cloud
-computing infrastructure such as Amazon EC2, this lets your servers
-run more cheaply, securely and finer control than with a full software
-stack. 
-
-Mirage is based around the <a href="http://caml.inria.fr/">OCaml</a>
-language, with syntax extensions and libraries which provide
-networking, storage and concurrency support that are easy to use
-during development, and map directly into operating system constructs
-when being compiled for production deployment. You can find more
-information at the homepage at <a
-href="http://www.openmirage.org/">OpenMirage.org</a>. 
-
-<a name="connectivity"><img class="project_icon" src="/graffle/stage2-sm.png"></img></a>
-<span class="project_stage">2. Easy Connectivity</span>
-
-
-
-
-{% endcomment %}
