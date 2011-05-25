@@ -37,6 +37,10 @@ Team
   <img class="aligncenter" src="/images/people/rmm.png" alt="">
   Richard Mortier
 </a></div>
+<div class="person"><a href="http://www.cs.nott.ac.uk/~djp/">
+  <img class="aligncenter" src="/images/people/djp.png" alt="">
+  Dominic Price
+</a></div>
 
 =--
 
