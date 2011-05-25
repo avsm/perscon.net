@@ -260,7 +260,27 @@ body#people #navigation a.people
 
 /* Documentation */
 
-article { display: block; }
+article {
+  display: block; 
+}
+
+.blog_header a {
+  font-size: 1.15em;
+  color: #000030;
+  background-color: #fcfbfb;
+}
+.blog_excerpt {
+  font-size: 0.9em;
+}
+.blog_more {
+  font-style: italic;
+  border-left: 1px solid #ceceee;
+  padding-left: 10px;
+  font-size: 0.8em;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
 .pub {
   font: normal .9em/1.3em Arial, Helvetica, sans-serif; 
   padding: 0 0 1em;

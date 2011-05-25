@@ -2,7 +2,7 @@
 layout: post
 title: Opening a website
 author: Anil Madhavapeddy
-excerpt: Accessing your personal data
+excerpt: We've been working away at building a new type of database to help individuals keep reigns on their ever-increasing personal digital information.
 ---
 
 We've been working away at building a new type of database to help
