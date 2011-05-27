@@ -13,6 +13,10 @@ Team
   <img class="aligncenter" src="/images/people/sa.png" alt="">
   Shakir Ali
 </a></div>
+<div class="person"><a href="http://www.cl.cam.ac.uk/~jac22/">
+  <img class="aligncenter" src="/images/people/jac.png" alt="">
+  Jon Crowcroft
+</a></div>
 <div class="person"><a href="http://elsmorian.com/">
   <img class="aligncenter" src="/images/people/cce.png" alt="">
   Chris Elsmore
