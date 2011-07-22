@@ -5,7 +5,7 @@ layout: pub
 authors: J. Crowcroft, A. Madhavapeddy, M. Schwarzkopf, T. Hong,
          R. Mortier
 title: Unclouded Vision
-pdf: /pdf/icdcn11-droplets.pdf
+pdf: /docs/papers/pdf/icdcn11-droplets.pdf
 venue: Proceedings of 12th International Conference on
        Distributed Computing and Networking (ICDCN)
 uri: http://icdcn.iitkgp.ac.in/

@@ -4,7 +4,7 @@ layout: pub
 
 authors: D. McAuley, R. Mortier, J. Goulding
 title: The Dataware Manifesto
-pdf: /publications/pdf/comsnets11-dataware.pdf
+pdf: /docs/papers/pdf/comsnets11-dataware.pdf
 venue: Proceedings of the 3rd IEEE International Conference on
        Communication Systems and Networks (COMSNETS) 
 uri: http://dx.doi.org/10.1109/COMSNETS.2011.5716491
