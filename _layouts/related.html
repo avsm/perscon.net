@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<article class="pub {{ page.layout | xml_escape }}">
+  <span class="title"><a href="{{ page.uri }}">{{ page.title | xml_escape }}</a></span>
+
+  <br>
+  {% if page.address %}
+  <span class="address">{{ page.address | xml_escape }}</span>
+  {% endif %}
+  <span class="date">{{ page.date | date_to_long_string }}</span>
+
+  {% if page.notes %}
+  <span class="notes">{{ page.notes | xml_escape }}</span>
+  {% endif %}
+
+  <p>
+    {{ content }}
+  </p>
+</article>
+
+<div id="comments">
+  <a href="{{ page.url }}#disqus_thread">View Comments</a>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'perscon';
+    var disqus_url = '{{ page.url }}';
+    var disqus_identifier = '{{ page.id }}';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); 
+        dsq.type = 'text/javascript'; 
+        dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the 
+    <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+  <a href="http://disqus.com" class="dsq-brlink">blog comments powered by 
+    <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<!--
+<nav class="articles-nav">
+  <p>
+    {% if page.previous %}
+    <span class="nav-previous">
+      &larr; 
+      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" accesskey="p">
+        prev
+      </a>
+    </span>
+    {% endif %}
+
+    {% if page.previous and page.next %}
+    <span class="pipe">|</span>
+    {% endif %}
+
+    {% if page.next %}
+    <span class="nav-next">
+      <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" accesskey="n">
+        succ
+      </a>
+      &rarr;
+    </span>
+    {% endif %}
+  </p>
+</nav>
+-->

@@ -86,6 +86,29 @@ layout: blog
 </p>
 {% endfor %}
 
+
+[Related](/docs/related/)
+======
+
+{% for post in site.categories.related limit:3 %}
+<article class="pub related">
+  <span class="title"><a href="{{ post.url }}">{{ post.title | xml_escape }}</a></span>
+  <span class="date">{{ post.date | date_to_long_string }}</span>
+
+  <br />
+  [<a href="{{ post.url }}#disqus_thread"
+      data-disqus-identifier="{{ post.id }}">comments</a>]
+</article>
+{% endfor %}
+
+
+{% for post in site.categories.related limit:1 offset:3 %}
+<p class="more">
+  <a href="/docs/related/">More...</a>
+</p>
+{% endfor %}
+
+
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'perscon'; // required: replace example with your forum shortname
