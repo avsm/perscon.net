@@ -9,7 +9,7 @@ Awareness of Personal Data issues have risen in prominence in recent years and t
 
 Although we won't necessarily be discussing these sites in any detail it's interesting that what they all have in common is the aim of aggregating a user's data in one place.  Once a user has collected all her data, the suggestion is that she can share those 'data-streams' with others, including services that she's granted access to.  At the moment there's limited information on how this aspect would work in practice but it's certainly important in order to liberate the *value* of that data.
 
-<a href="http://www.flickr.com/photos/harmony19490/362527788/"><img style="float:right" img src="/images/open-padlock.png"></a>
+<a href="http://www.flickr.com/photos/harmony19490/362527788/"><img style="float:right" src="/images/open-padlock.png"></a>
 In general, this approach seems similar to the previous iteration of Personal Containers.  The idea of aggregating data into one place is fairly intuitive but as we've [learned from prior feedback][PersConUpdate], there is valid concern about having "all your eggs in one basket".  
 
 There have been security issues that highlight this problem.  Last year a [programming error at Dropbox][DropboxStory], a popular file-syncing service, led to customer accounts being accessible.  For a few hours you could access any user account with any arbitrary password.  The flaw was possible because of the way Dropbox handles encryption, specifically that they hold users' encryption keys and therefore have access to files.\* 
