@@ -13,6 +13,10 @@ Team
   <img class="aligncenter" src="/images/people/sa.png" alt="">
   Shakir Ali
 </a></div>
+<div class="person"><a href="http://amirchaudhry.com/">
+  <img class="aligncenter" src="/images/people/amc.png" alt="">
+  Amir Chaudhry
+</a></div>
 <div class="person"><a href="http://www.cl.cam.ac.uk/~jac22/">
   <img class="aligncenter" src="/images/people/jac.png" alt="">
   Jon Crowcroft
