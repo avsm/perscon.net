@@ -15,7 +15,7 @@ Energy use in buildings and in transport systems is rapidly becoming part of our
 - Assures users that the data is only used for this application
 - Denies the team access to other data that is not relevant
 
-The type of sensitive data relevant to the study will be morning commutes (e.g. GPS information between 8am-10am on weekdays only).  This information could be combined with public data (e.g. traffic data) and a series of incentives constructed to optimise the overall energy usage.  A particularly exciting possibility would be the ability to test various types of incentives with different groups to see which are most effective.  All while preserving the individual privacy of users.
+The type of sensitive data relevant to the study will be daily commutes (e.g. GPS information between 8am-10am and 4pm-6pm on weekdays only).  This information could be combined with public data (e.g. traffic data) and a series of incentives constructed to optimise the overall energy usage.  A particularly exciting possibility would be the ability to test various types of incentives with different groups to see which are most effective.  All while preserving the individual privacy of users.
 
 We'll post more information as the project develops, including the hurdles and technical challenges that need to be overcome.  In the meantime, you can read more about the project itself at the [C-AWARE site][].
 
