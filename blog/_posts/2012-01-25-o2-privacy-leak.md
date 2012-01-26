@@ -11,7 +11,7 @@ This is obviously a massive breach of privacy and as you can imagine, news of it
 
 In fact, this isn't the first time that mobile browsing has been shown to leak data.  A prior [study by Collin Mulliner][mulliner-paper] in 2010 showed that the phone number could appear in any number of headers as well as other information (e.g your roaming status).  
 
-This highlights how 'spread-out' personal data has become and breaches like this serve to remind us how lax some organisations can be.  As more and more people access the web via mobile devices, issues like this become more important.  Products and services should be designed to be privacy-preserving from the very beginning.  To some extent this can mitigate any mistakes that others can make but can also empower users by giving them the option to explicitly share information they deem it sensitive.
+This highlights how 'spread-out' personal data has become and breaches like this serve to remind us how lax some organisations can be.  As more and more people access the web via mobile devices, issues like this become more important.  Products and services should be designed to be privacy-preserving from the very beginning.  To some extent this can mitigate any mistakes that others can make but can also empower users by giving them the option to explicitly share information if they deem it sensitive.
 
 *(O2 has now written [a post about what happened][O2-Statement])*
 
