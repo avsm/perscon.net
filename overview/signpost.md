@@ -30,5 +30,4 @@ addition, it also understands the *internal* structure of networks
 (e.g. the home) and can directly redirect devices that are on the same
 network to each other without going via the Internet. 
 
-Stay tuned for an alpha release of this project towards the end of the
-2011 summer. 
+Stay tuned for an alpha release of this project around Easter 2012. 
