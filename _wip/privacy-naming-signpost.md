@@ -9,42 +9,35 @@ excerpt: Summary here
 
 ## Interest in connected devices
 
-There have been a number of fairly high profile conferences recently where the internet, and how it might look in the future, were discussed.  One of the recurring themes is related to the proliferation of mobile devices and how to provide services over them.
+The number of internet-enabled devices is increasing and mobile phones only represent one category.  Other types of net-enabled devices can be made quite cheaply, contain a multitude of sensors and be situated almost anywhere.  For example, there are a couple of projects on Kickstarter that promise small boxes with a variety of sensors and even actuators, that can be used for a variety of purposes (see [Twine][Twine Kickstarter] and [Ninja Blocks][Ninja Blocks]).  The fact that these projects surpassed their funding goals so quickly and spectacularly indicates how excited people are about the possibilities of smart sensors and connected devices.  Commercial products also exist, such as the [Nest thermostat][Nest], which communicates with a cloud-based service to regulate the temperature in the home.
 
-The number of internet-enabled devices is increasing and mobile phones only represent one category.  Other types of devices could contain a multitude of sensors and be located almost anywhere.  For example, there are a couple of projects on Kickstarter that promise small sensor boxes which can be placed almost anywhere and use fora variety of purposes.  The fact that these devices have surpassed their funding goals so spectacularly (15x it's funding goals) indicates how excited people are about the possibilities of smart sensors and connected devices.  
+You can easily imagine many uses for such linked-sensor networks.  One example might be a security and access system for your home.  For example, imagine that you have a camera attached to your doorbell, which can send a video-feed directly to your smart-phone at work.  You could then talk to the postman who's trying to deliver a parcel and make sure he leaves it with No.3 or No.10 (people you actually know), and definitely *not* at No.1 (who you've never got on with).  Perhaps you could also control the lock and let a trusted friend in if they've arrived while you're still on your way home.  The possibilities are only limited by the sensors and actuators available.
 
-Some obvious mechanisms might be a systems of cameras that form part of your home security system.  When your landlord's plumber rings your doorbell, the camera directs the sound/image to your phone so you can verify him.  Actuators may allow you to open the door and allow him access.  Cameras inside the flat could be useful in directing him to the stop-valve so he can get on with fixing the boiler while you're out at the shops (of course, you have to trust that he's not interested in your underwear).  
+The key point about these types of devices is that they're *'connected'*, which usually means *'connected-to-the-internet'*.  The implicit message is that they're linked to some kind of centralised service but most people don't delve into what that actually means.
 
-NEST
+[Twine Kickstarter]: http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet
+[Ninja Blocks]: http://ninjablocks.com/
+[Nest]: http://www.nest.com
+
 
 ## Devices connected to ... third-party services?
 
-Something that all the discussions have in common is how closely tied all these peripheral devices are to cloud-based services (phones included).  Or rather, the *lack* of discussion.  It's almost taken for granted that such devices need to 'dial home' in order to configure them and get anything useful out of them.  In all cases 'home' is a third-party service to which users are granted access (possibly as a subscription service).  In fact, it's almost unthinkable to talk about the 'internet-of-things' without also including the services that exists to administer and configure the devices.  
+Something common to all the rhetoric about connected devices are references to cloud-based services (phones included).  In fact, there's a surprising *lack* of discussion about this aspect.  It's almost taken for granted that such devices need to 'dial home' for configuration and to do anything useful with them.  'Home' is typically a third-party service to which users are granted access (possibly as a subscription).  It's a little lax to talk about the 'internet-of-things' without also mentioning the centralised services that may underlie it.  
 
-In all the excitement, what *isn't* really discussed is the increasing amount of personal data that will have to be shared with these services, as a result of their centralisation.  Of course, all such services will claim that data security is paramount for them, but it should still be recognised that it's unlikely to be part of their 'core-business'.  Another aspect of this centralisation is whether the organisations *need* to hold such information at all.  For some companies, there may be a clear strategic desire to collate and analyse user data (e.g Google is adept at monetising what it learns from users).  However, in some cases, the back-end service may only exist to solve the problem of connectivity.  Put bluntly, it's difficult to get all your devices to talk to each other but a lot easier to get them talking to a centralised service on the internet.  
+Nikesh Arora of Google recently mentioned that ["Consumers want a divergence of devices but a convergence of services"][Arora Gplus].  It's fairly safe to assume that Google would like to be a point of 'convergence' and have begun to position themselves in this way\*. Arora, like many others, makes the implicit assumption that cloud services will provide the connectivity between devices.  A perfectly reasonable assumption since it's how things have progressed so far and Google has a vested interest in it.  Essentially, web-based services would act to host, co-ordinate and sync data from whichever devices are authenticated with them.  
 
-If that's the case, then these services are simply 
+[Arora Gplus]: https://plus.google.com/104376123433741873548/posts/4RcwiHbS7ME
 
-  really an internet of things as each set of devices will necessarily have it's own owners (the people who provide the concurrent services).  In fact, this is simply an extension of software into hardware, where the devices will only work 
+In all the excitement, what *isn't* really discussed is the increasing amount of personal data that would have to be shared with such centralised services (of course, they would all claim that data security is paramount for them).  Another aspect of this centralisation is whether the organisations even *need* to hold such information at all.  For some companies, there may be a clear, strategic desire to collate and analyse user data (e.g Google is adept at monetising what it learns from users).  However, in some cases, the back-end service may only exist to solve a problem of connectivity.  Put bluntly, it's difficult to get all your devices to talk to each other but a lot easier to get them talking to a centralised service on the internet.  If a mechanism existed to allow devices to quickly and efficiently connect to each-other, then perhaps many of the services could focus on the value-added parts of their products, instead of how to get information from device A (my doorbell camera) to device B (my smart-phone screen).
 
-
-Signpost addresses the difficult problem for the 'internet-of-things'.  That of creating ad-hoc, private connections between your devices.
+[Signpost][] addresses one of the difficult yet <strong>fundamental</strong> problems for enabling the 'internet-of-things'.  That of creating robust, ad-hoc, private connections between devices.
 
 
 ## Signpost enables truly connected devices
 
+Why Signpost is teh Awesomesauce!!!11!!
 
-
-
-[Twine Kickstarter]: http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet
-[Ninja Blocks]: http://ninjablocks.com/
-[Arora G+]: https://plus.google.com/104376123433741873548/posts/4RcwiHbS7ME
-
-
---------------
-
-
-
+Signposts is timely in that allows all devices to connect to each other
 Post on why we need Signpost. Include info on the following:
 
 - end-to-end connections and how the internet breaks them
@@ -52,29 +45,22 @@ Post on why we need Signpost. Include info on the following:
 - why this matters and what it enables
 - how it might change the way devices communicate and connect
 
-comparison from DLD conference and Bill Gross quotes
 
-Number of interenet enabled devices is proliferating
+[Signpost]: http://perscon.net/overview/signpost.html
 
-Signposts is timely in that allows all devices to connect to each other
+\* For example, Google has recently merged its privacy policies to allow all their services to share data between them.  
+
+--------------
 
 
-There have been a number of fairly high profile conference recently where the internet and how it might look in the future was discussed.  One of the recurring themes seems related to the proliferation of mobile devices and the services that can be provided over them.  
+Some obvious mechanisms might be a systems of cameras that form part of your home security system.  When your landlord's plumber rings your doorbell, the camera directs the sound/image to your phone so you can verify him.  Actuators may allow you to open the door and allow him access.  Cameras inside the flat could be useful in directing him to the stop-valve so he can get on with fixing the boiler while you're out at the shops (of course, you have to trust that he's not not also interested in your underwear or the big-screen TV).  
 
-Nikesh Arora of Google mentioned that "Consumers want a divergence of devices but a convergence of services".  It's safe to assume that Arora is hoping/expecting Google to provide the second half of his statement.  Assuming that there is actually divergence in mobile devices (iOS still leads by a wild margin), then the issue of connectivity becomes more and more important.  Arora, like many others has made one implicit assumption, which is that cloud services will provide the services and connectivity between devices.  This is a perfectly reasonable assumption since it's the way all current services have grown.  Essentially, a web-based service acts to host, co-ordinate and sync data from whichever devices are connected to it.  This system has worked well enough to date but there are certain caveats to solving the connectivity problem this way.
 
-- Trust of 3rd party services
-- Reduced control over data
-- Proliferation of one-trick services
+There have been a number of fairly high profile conferences recently where the internet, and how it might look in the future, were discussed.  One of the recurring themes is related to the proliferation of mobile devices and how to provide services over them.
+
 
 Indeed, you can imagine that Google stands to benefit a great deal if they can position themselves as the go-between for all your data online.  Provided a user opts into all their services, then they should reasonably expect to be able to co-ordinate/authenticate all their devices with one Google ID.  They'd get access to Picasa, Gmail, Latitude and host of other Google products all from frome ach of their devices.  You can see how this is quite a tempting offer, but it's also possible to imagine that all the services will be exactly what each user needs.  
 
-The second issue that the aggregate data of all your Google usage, is owned by them.  This has benefits to the user, in that G can quickly offer new services and products, based on user behaviour, but it also means that your personal information is effectively owned by a corporation.  Of course, there are people who don't see this as a problem, and that's fine, but we should not allow ourselves to enter a world where there are effectively two tiers of online.  Those who are happy to share most details of their lives under any kind of ToS agreement and others who are inadvertendly forced off, simply because the are unwilling to give up so much access to their personal lives.  
+The second issue that the aggregate data of all your Google usage, is owned by them.  This has benefits to the user, in that G can quickly offer new services and products, based on user behaviour, but it also means that your personal information is effectively owned by a corporation.  Of course, there are people who don't see this as a problem, and that's fine, but we should not allow ourselves to enter a world where there are effectively two tiers of online.  Those who are happy to share most details of their lives under any kind of ToS agreement and others who are inadvertently forced off, simply because the are unwilling to give up so much access to their personal lives.  
 
-The proliferation of apps that essentially aid connectivity are one of the reasons that we need a new system for connecting devices.
-
-Another thing that most pundits predict is that all devices will essentially e able to get in
-
-
-What users ultimately need is a method for connecting
-
+--------
