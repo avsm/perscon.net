@@ -5,7 +5,7 @@ author: Amir Chaudhry
 excerpt: Summary here
 --- -->
 
-# Connected devices, Web Services and Signpost
+# Connected devices, web services and Signpost
 
 ## Interest in connected devices
 
@@ -15,17 +15,23 @@ The number of internet-enabled devices is increasing and mobile phones only repr
 
 Some obvious mechanisms might be a systems of cameras that form part of your home security system.  When your landlord's plumber rings your doorbell, the camera directs the sound/image to your phone so you can verify him.  Actuators may allow you to open the door and allow him access.  Cameras inside the flat could be useful in directing him to the stop-valve so he can get on with fixing the boiler while you're out at the shops (of course, you have to trust that he's not interested in your underwear).  
 
-## Devices connected to ... proprietary web services?
+NEST
 
-Something that all the discussions have in common is how closely tied all these peripheral devices are to cloud-based services (phones included).  It's almost taken for granted that such devices need to 'dial home' in order to provide their services and allow users to configure them.  In all cases 'home' is likely proprietary software running outside the control of the end-user.  Something that isn't discussed as openly is the increasing amount of data that will have to pass through 3rd party services as a result.  At the moment it's almost unthinkable to talk about the 'internet-of-things' without also assuming that a 3rd party web service exists to administer and configure all the devices.  
+## Devices connected to ... third-party services?
 
-Although many services will claim that security is paramount for them, it should be recognised that in many cases it's unlikely to be 'core-business'.  
+Something that all the discussions have in common is how closely tied all these peripheral devices are to cloud-based services (phones included).  Or rather, the *lack* of discussion.  It's almost taken for granted that such devices need to 'dial home' in order to configure them and get anything useful out of them.  In all cases 'home' is a third-party service to which users are granted access (possibly as a subscription service).  In fact, it's almost unthinkable to talk about the 'internet-of-things' without also including the services that exists to administer and configure the devices.  
 
-I'd argue that this isn't really an internet of things as each set of devices will necessarily have it's own owners (the people who provide the concurrent services).  In fact, this is simply an extension of software into hardware, where the devices will only work 
+In all the excitement, what *isn't* really discussed is the increasing amount of personal data that will have to be shared with these services, as a result of their centralisation.  Of course, all such services will claim that data security is paramount for them, but it should still be recognised that it's unlikely to be part of their 'core-business'.  Another aspect of this centralisation is whether the organisations *need* to hold such information at all.  For some companies, there may be a clear strategic desire to collate and analyse user data (e.g Google is adept at monetising what it learns from users).  However, in some cases, the back-end service may only exist to solve the problem of connectivity.  Put bluntly, it's difficult to get all your devices to talk to each other but a lot easier to get them talking to a centralised service on the internet.  
 
-What if the connectivity ins't a core part of their offering?  It's still possible to offer a secure model of conenctivety while focussing on the usability and enojoyment of the prodict.  Not everyone will become a security expert.  
+If that's the case, then these services are simply 
 
-## Signpost enabling connected devices
+  really an internet of things as each set of devices will necessarily have it's own owners (the people who provide the concurrent services).  In fact, this is simply an extension of software into hardware, where the devices will only work 
+
+
+Signpost addresses the difficult problem for the 'internet-of-things'.  That of creating ad-hoc, private connections between your devices.
+
+
+## Signpost enables truly connected devices
 
 
 
