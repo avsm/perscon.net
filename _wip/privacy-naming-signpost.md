@@ -22,6 +22,7 @@ The key point about these types of devices is that they're *'connected'*, which 
 
 ## All your device are belong to us ... ?
 
+<a href="http://www.flickr.com/photos/katodog/4411945975/" title="The Old Ball and Chain by Ed Durbin (Katodog), on Flickr"><img src="http://farm5.staticflickr.com/4003/4411945975_142f8282ed.jpg" width="240" height="160" align="left" alt="The Old Ball and Chain"></a>
 Something common to all the rhetoric about connected devices (phones included) are references to cloud-based services.  In fact, there's a surprising *lack* of discussion about this aspect.  It's almost taken for granted that such devices will need to 'dial home' to achieve anything useful.  'Home' is typically a third-party service to which users are granted access (possibly as a subscription).  It's a little lax to discuss the 'internet-of-things' without also mentioning the centralised services that may underlie it.  
 
 Nikesh Arora of Google recently mentioned that ["Consumers want a divergence of devices but a convergence of services"][Arora Gplus].  It's safe to assume that Google would like to be a point of convergence and have begun to position themselves in this way\*. Arora, like many others, makes the implicit assumption that cloud-based services will provide the connectivity between devices.  Specifically, that these web-based services will act to host, co-ordinate and route data from whichever devices are authenticated with them.  
@@ -37,6 +38,7 @@ If a mechanism existed to allow devices to quickly and efficiently make direct c
 
 ## Signpost enables truly connected devices
 
+<a href="http://www.flickr.com/photos/heavytpro70/3373700465/" title="Tin cans and string by heavytpro70, on Flickr"><img src="http://farm4.staticflickr.com/3456/3373700465_2e2863f2cb.jpg" width="236" height="240" align="right" alt="Tin cans and string"></a>
 Signpost enables devices to create bi-directional connections between each-other which can be used by applications to route data.  It could be used by any arbitrary application that needs to get information from one device to another and can also achieve this in a way that doesn't involve directly handling the data itself.  
 
 Since devices can be highly mobile, moving from wifi networks to 3G and back, Signpost maintains two useful pieces of information for each device.  The first is a universal *name* for each device, which acts as a pointer.  The second is a list of *tactics*, which can be enacted to create connections between two trusted devices. In some sense this is similar to the way DNS works, resolving device names into methods for connecting to those devices.  Initially, a personal, centralised Signpost can act to co-ordinate these connections but an individual could have multiple Signposts.  For example one could run on your network at home to enable connectivity between home devices in the absence of the external internet.
