@@ -14,7 +14,7 @@ The number of internet-enabled devices is increasing and mobile phones only repr
 
 You can easily imagine many uses for such linked-sensor networks.  One example might be a security and access system for your home.  For example, imagine that you have a camera attached to your doorbell, which can send a video-feed directly to your smart-phone at work.  You could then talk to the postman who's trying to deliver a parcel and make sure he leaves it with people at No.3 or No.10 (people you actually know), and definitely *not* with the guy at No.1 (who you've never got on with).  Perhaps you could also control the lock and let a trusted friend in if they've arrived while you're still on your way home.  The possibilities are only limited by the sensors, actuators and people's imaginations.
 
-The key point about these types of devices is that they're *'connected'*, which usually means *'connected-to-the-internet'*.  The implicit message is that they're linked to some kind of centralised service but most people don't delve into what that actually means.
+The key point about these types of devices is that they're '*connected*', which usually means '*connected-to-the-internet*'.  The implicit message is that they're linked to some kind of centralised service but most people don't delve into what that actually means.
 
 [Twine Kickstarter]: http://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet
 [Ninja Blocks]: http://ninjablocks.com/
