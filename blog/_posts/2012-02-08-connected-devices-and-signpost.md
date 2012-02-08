@@ -48,28 +48,3 @@ Work is still progressing towards an alpha version and early results are very pr
 [Signpost]: http://perscon.net/overview/signpost.html
 
 \* <small>For example, Google has recently merged its privacy policies to allow all their services to share data between them.</small>
-
-<!--
-
-A perfectly reasonable assumption since it's how things have progressed so far and Google has a vested interest in it.
-
-Some obvious mechanisms might be a systems of cameras that form part of your home security system.  When your landlord's plumber rings your doorbell, the camera directs the sound/image to your phone so you can verify him.  Actuators may allow you to open the door and allow him access.  Cameras inside the flat could be useful in directing him to the stop-valve so he can get on with fixing the boiler while you're out at the shops (of course, you have to trust that he's not not also interested in your underwear or the big-screen TV).  
-
-
-There have been a number of fairly high profile conferences recently where the internet, and how it might look in the future, were discussed.  One of the recurring themes is related to the proliferation of mobile devices and how to provide services over them.
-
-
-Indeed, you can imagine that Google stands to benefit a great deal if they can position themselves as the go-between for all your data online.  Provided a user opts into all their services, then they should reasonably expect to be able to co-ordinate/authenticate all their devices with one Google ID.  They'd get access to Picasa, Gmail, Latitude and host of other Google products all from frome ach of their devices.  You can see how this is quite a tempting offer, but it's also possible to imagine that all the services will be exactly what each user needs.  
-
-The second issue that the aggregate data of all your Google usage, is owned by them.  This has benefits to the user, in that G can quickly offer new services and products, based on user behaviour, but it also means that your personal information is effectively owned by a corporation.  Of course, there are people who don't see this as a problem, and that's fine, but we should not allow ourselves to enter a world where there are effectively two tiers of online.  Those who are happy to share most details of their lives under any kind of ToS agreement and others who are inadvertently forced off, simply because the are unwilling to give up so much access to their personal lives.  
-
-
-Signposts is timely in that allows all devices to connect to each other
-Post on why we need Signpost. Include info on the following:
-
-- end-to-end connections and how the internet breaks them
-- how signpost nams different things places
-- why this matters and what it enables
-- how it might change the way devices communicate and connect
--->
-
