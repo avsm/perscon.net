@@ -1,19 +1,20 @@
 <!--
 
 layout: post
-title: Path and address books
+title: Friend recommendations and address book privacy
 author: Amir Chaudhry
 excerpt: 
 
 -->
 
-# Social networking and user's address books
+# Friend recommendations and address book privacy
 
 In the last couple of weeks a news story flared-up, gathered some momentum and appears to have died down.
 
+<a href="http://www.flickr.com/photos/moonbindery/3312836664/" title="Handbound address book. green fern cover by Barbara Simler, on Flickr"><img src="http://farm4.staticflickr.com/3641/3312836664_ef8e302412_m.jpg" width="240" height="232" align="right" hspace="10" vspace="10" alt="Handbound address book. green fern cover"></a>
 The story was about how Path, a social networking app for the iPhone, was silently copying users' address books to its servers.  *How* it was discovered probably added some fuel to the story, since it involved a developer running a proxy and noticing what kind of information was being sent back and forth.  The headline was that the entire address book was sent from the phone to Path's servers.  There was no indication in Path's privacy policy that they collected information in this way (whether anyone actually *reads* such policies is a topic for another time).  You can follow the unfolding events in the rough timeline below.
 
-The justification for needing the address book data is so that suggestions can be made for new connections. For example, Alice joins Path and by accessing her address book, Path realises she has Bob's contact details.  Since Bob is already a member, Path can suggest that they connect.  This 'feature' is commonplace in almost every social networking application and Path's CEO even commented that it was "industry best practice".
+The justification for needing the address book data is to improve friend recommendations.  For example, Alice joins a service and by accessing her address book, the service realises she has Bob's contact details.  Since Bob is already a member, the network can suggest that they connect.  This 'feature' is commonplace in almost every social networking application.  The issue was that it occurred without users' explicit consent and that the data was stored on Path's servers.  The CEO even commented that it was "industry best practice".
 
 It's this last comment that is concerning.  Mostly because it's true.
 
@@ -21,9 +22,9 @@ Path wasn't alone in quietly scraping users' data.  Although they didn't suffer 
 
 It appears that in the race to create excellent, well-designed user experiences, the simple act of *informing users what you're doing* with their data is completely overlooked.  Perhaps it's one dialog box too far for the developers?  
 
-The astounding thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple didn't lock-down address book access, it must be acceptable to do whatever you want with it.  This viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
+The surprising thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple didn't lock-down address book access, it must be acceptable to do whatever you want with it.  This viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
 
-In general, I find this view to be counter-productive.  Apple may be at fault for not providing clear guidelines, but it's still the app developers who wrote the code to copy data.  The result of transferring the blame to the platform means that developers don't have to hold themselves to higher standards and that platform providers will feel the need to become ever more restrictive. 
+In general, I find this view to be counter-productive.  Apple may be at fault for allowing unfettered access, but it's still the social networks who wrote the code to copy data, without user prompting.  Those networks should hold themselves to higher standards.  <!--In fact, a possible side-effect of transferring the blame to the platform might be that developers don't have to hold themselves to higher standards while platform providers will then be compelled to become ever more restrictive. -->
 
 Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and your 'digital footprint' is becoming a more visible topic.  As well it should be.
 
