@@ -23,3 +23,18 @@ not sure how most people feel about that, or even if they're thinking about it. 
 
 Essentially, it feels like data-communism.  Nobody owns the 'data" it's free for anyone to do as they please with.  While I'm sure there are some amazing things that can be achieved if we pool all stuff together, we should not simply forgo the discussion of individual rights.
 
+## Privacy leaks and Learned Helplessness
+
+With all the random privacy leaks, changing ToS and Policies are we simply being beaten into a state of Learned Helplessness?  
+
+
+
+## Desktop vs Webapps and privacy
+
+This is now pure speculation.  Perhaps its because the app developers come from a background of web dev where you try and catch as much info as possible e.g. browser, location, time on site etc etc that when they move into apps on phones it feels like fair-game to take whatever they can get their hands on.
+
+Would desktop app back-in-the-day ahve been like this?  If I install a to-do list app could it quitely look through my files and send things back home?  Probably, but I wonder of app devs did this?  WEre they ethically better? or was it just too hard?
+
+
+
+
