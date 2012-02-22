@@ -24,7 +24,7 @@ It appears that in the race to create excellent, well-designed user experiences,
 
 The surprising thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple didn't lock-down address book access, it must be acceptable to do whatever you want with it.  This viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
 
-In general, I find this view to be counter-productive.  Apple may be at fault for allowing unfettered access, but it's still the social networks who wrote the code to copy data, without user prompting.  Those networks should hold themselves to higher standards.  <!--In fact, a possible side-effect of transferring the blame to the platform might be that developers don't have to hold themselves to higher standards while platform providers will then be compelled to become ever more restrictive. -->
+In general, I find this view to be counter-productive.  Apple may be at fault for allowing unfettered access, but it's still the social networks who wrote the code to copy data, *without user prompting*.  Those networks should hold also themselves to higher standards.  
 
 Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and your 'digital footprint' is becoming a more visible topic.  As well it should be.
 
