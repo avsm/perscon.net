@@ -41,7 +41,7 @@ Each of these 'privacy-leak' stories seem to be short-lived but the growing freq
 - \[8 Feb\] - Arun Thanmpi [writes about][thanmpi-post] the exact `POST` request which sends his entire address book to Path
 - \[8 Feb\] - Path CEO responds to comments on Thanmpi's blog post, and mentions that this behaviour is ["Industry best practice"][path-ceo-comment], among other things
 - \[8 Feb\] - Another developer [confirms][curtis-post] that such behaviour is commonplace, but believes Apple is to blame
-- \[9 Feb\] - Path CEO [apologies on their blog][path-apology]
+- \[9 Feb\] - Path CEO [apologises on their blog][path-apology]
 - \[12 Feb\] - [NY Times article][ny-times-article] about the sensitivity of address book data
 - \[14 Feb\] - [Venture Beat article][venture-beat-article] mentioning other services that transmit address book data, including in plain-text
 - \[15 Feb\] - [Congressmen write to Apple][letter-to-apple] with several questions about Apple policies. 
