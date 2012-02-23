@@ -1,13 +1,11 @@
-<!--
-
+---
 layout: post
 title: Friend recommendations and Address Book Privacy
 author: Amir Chaudhry
 excerpt: In the last couple of weeks another news story about privacy flared-up, gathered some momentum and appears to have died down. The story was about how Path, a social networking app for the iPhone, was silently copying users' address books to its servers.
+---
 
--->
-
-# Friend recommendations and address book privacy
+<!-- # Friend recommendations and address book privacy -->
 
 In the last couple of weeks another news story about privacy flared-up, gathered some momentum and appears to have died down.
 
