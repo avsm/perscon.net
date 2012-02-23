@@ -30,7 +30,7 @@ The meaning of "data about a user" could be considered a little ambiguous and th
 
 In general, I find the annoyance directed at Apple to be counter-productive. Despite the seemingly failed app approval process, it's still the social networks who wrote the code to copy data, *without user prompting*.  Claims that it's Apple's fault for 'letting them get away with it' seem to be missing the point.  That those networks should hold themselves to higher standards.  
 
-Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and awareness of your '[lifelong digital footprint][horizon-institute]' is becoming a more visible topic.  As well it should be.
+Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over [personal data][perscon-site] and awareness of your '[lifelong digital footprint][horizon-institute]' is becoming a more visible topic.  As well it should be.
 
 
 ### Rough timeline of events
@@ -67,5 +67,7 @@ Each of these 'privacy-leak' stories seem to be short-lived but the growing freq
 [apple-response]: http://allthingsd.com/20120215/apple-app-access-to-contact-data-will-require-explicit-user-permission/
 
 [mobile-privacy-guidelines]: http://techcrunch.com/2012/02/22/apple-google-and-others-agree-to-mobile-app-privacy-policy-guidelines/
+
+[perscon-site]: http://perscon.net/overview/
 
 [horizon-institute]: http://www.horizon.ac.uk/Horizon-Research
