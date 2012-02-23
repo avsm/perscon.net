@@ -10,6 +10,27 @@ layout: default
   <em>Posted on {{ page.date | date_to_long_string }} by {{ page.author | xml_escape }}.</em>
 </article>
 
+
+<div id="comments">
+  <a href="{{ page.url }}#livefyre_thread">View Comments</a>
+  <div id="livefyre_thread"></div>
+  <!-- START: Livefyre Embed -->
+  <script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
+  <script type='text/javascript'>
+    var fyre = LF({
+      site_id: 298349 /* id for the Signpost Livefyre account */
+  });
+  </script>
+  <!-- END: Livefyre Embed -->
+  <noscript>
+    Please enable JavaScript to view the comments
+  </noscript>
+</div>
+
+
+
+<!-- Old Disqus Comment system -->
+<!--
 <div id="comments">
   <a href="{{ page.url }}#disqus_thread">View Comments</a>
   <div id="disqus_thread"></div>
@@ -35,6 +56,9 @@ layout: default
   <a href="http://disqus.com" class="dsq-brlink">blog comments powered by 
     <span class="logo-disqus">Disqus</span></a>
 </div>
+-->
+<!-- end of Old Disqus Comment system -->
+
 
 <!-- how is this supposed to work with multiple post categories?!
 <nav class="articles-nav">
