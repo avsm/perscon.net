@@ -18,15 +18,21 @@ The justification for needing the address book data is to improve friend recomme
 
 It's this last comment that is concerning.  Mostly because it's true.
 
-Path wasn't alone in quietly scraping users' data.  Although they didn't suffer the same backlash, sites like Instagram, Twitter, Foursquare and others were also taking copies of users' address books, without the users' explicit knowledge.  
+Path wasn't alone in quietly scraping users' data.  Although they didn't suffer the same backlash, sites like Instagram, Twitter, Foursquare and others were also taking copies of users' address books. All without the users' explicit knowledge.  
 
 It appears that in the race to create excellent, well-designed user experiences, the simple act of *informing users what you're doing* with their data is completely overlooked.  Perhaps it's one dialog box too far for the developers?  
 
-The surprising thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple didn't lock-down address book access, it must be acceptable to do whatever you want with it.  This viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
+The surprising thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple explicitly didn't lock-down address book access, it must be acceptable to do whatever you want with it.  Apple may be at fault for allowing unfettered access but their guidelines do state that:
 
-In general, I find this view to be counter-productive.  Apple may be at fault for allowing unfettered access, but it's still the social networks who wrote the code to copy data, *without user prompting*.  Those networks should hold also themselves to higher standards.  
+> 17.1 Apps cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used
 
-Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and your 'digital footprint' is becoming a more visible topic.  As well it should be.
+> 17.2 Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
+
+The meaning of "data about a user" could be considered a little ambiguous and this viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
+
+In general, I find the annoyance directed at Apple to be counter-productive. Despite the seemingly failed app approval process, it's still the social networks who wrote the code to copy data, *without user prompting*.  Claiming that it's Apple's fault for 'letting them get away with it' seems disingenuous.  Those networks should hold themselves to higher standards.  
+
+Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and your '[lifelong digital footprint][horizon-institute]' is becoming a more visible topic.  As well it should be.
 
 
 ### Rough timeline of events
@@ -39,7 +45,7 @@ Each of these 'privacy-leak' stories seem to be short-lived but the growing freq
 - \[14 Feb\] - [Venture Beat article][venture-beat-article] mentioning other services that transmit address book data, including in plain-text
 - \[15 Feb\] - [Congressmen write to Apple][letter-to-apple] with several questions about Apple policies. 
 - \[15 Feb\] - Apple makes a statement that ["any app wishing to access contact data will require explicit user approval"][apple-response]
-
+- \[22 Feb\] - California Attorney General brings major tech vendors together to ensure [all mobile apps come with a privacy policy][mobile-privacy-guidelines]
 
 
 <!-- ### Links -->
@@ -61,3 +67,7 @@ Each of these 'privacy-leak' stories seem to be short-lived but the growing freq
 [letter-to-apple]: http://thenextweb.com/apple/2012/02/15/congress-sends-letter-to-apple-questioning-the-path-debacle-developer-data-access/
 
 [apple-response]: http://allthingsd.com/20120215/apple-app-access-to-contact-data-will-require-explicit-user-permission/
+
+[mobile-privacy-guidelines]: http://techcrunch.com/2012/02/22/apple-google-and-others-agree-to-mobile-app-privacy-policy-guidelines/
+
+[horizon-institute]: http://www.horizon.ac.uk/Horizon-Research
