@@ -11,12 +11,13 @@ section: blog
   </p>
   <p class="blog_more">Posted on {{ post.date | date_to_long_string }} by {{ post.author | xml_escape }}
   <br />
-      <a href="{{ post.url }}#disqus_thread"
-         data-disqus-identifier="{{ post.id }}">Comments</a>
-      | <a href="{{ post.url }}">Read more</a>
+<!--      <a href="{{ post.url }}#disqus_thread"
+         data-disqus-identifier="{{ post.id }}">Comments</a> -->
+      <a href="{{ post.url }}">Read more</a>
   </p>
 {% endfor %}
 
+<!--
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'perscon'; // required: replace example with your forum shortname
@@ -30,3 +31,4 @@ section: blog
          || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
+-->
