@@ -1,26 +1,26 @@
 <!--
 
 layout: post
-title: Friend recommendations and address book privacy
+title: Friend recommendations and Address Book Privacy
 author: Amir Chaudhry
-excerpt: 
+excerpt: In the last couple of weeks another news story about privacy flared-up, gathered some momentum and appears to have died down. The story was about how Path, a social networking app for the iPhone, was silently copying users' address books to its servers.
 
 -->
 
 # Friend recommendations and address book privacy
 
-In the last couple of weeks a news story flared-up, gathered some momentum and appears to have died down.
+In the last couple of weeks another news story about privacy flared-up, gathered some momentum and appears to have died down.
 
 <a href="http://www.flickr.com/photos/moonbindery/3312836664/" title="Handbound address book. green fern cover by Barbara Simler, on Flickr"><img src="http://farm4.staticflickr.com/3641/3312836664_ef8e302412_m.jpg" width="240" height="232" align="right" hspace="10" vspace="10" alt="Handbound address book. green fern cover"></a>
 The story was about how Path, a social networking app for the iPhone, was silently copying users' address books to its servers.  *How* it was discovered probably added some fuel to the story, since it involved a developer running a proxy and noticing what kind of information was being sent back and forth.  The headline was that the entire address book was sent from the phone to Path's servers.  There was no indication in Path's privacy policy that they collected information in this way (whether anyone actually *reads* such policies is a topic for another time).  You can follow the unfolding events in the rough timeline below.
 
-The justification for needing the address book data is to improve friend recommendations.  For example, Alice joins a service and by accessing her address book, the service realises she has Bob's contact details.  Since Bob is already a member, the network can suggest that they connect.  This 'feature' is commonplace in almost every social networking application.  The issue was that it occurred without users' explicit consent and that the data was stored on Path's servers.  The CEO even commented that it was "industry best practice".
+The justification for needing the address book data is to improve friend recommendations.  For example, Alice joins a service and by accessing her address book, the service realises she has Bob's contact details.  Since Bob is already a member, the service can suggest that they connect.  This 'feature' is commonplace in almost every social networking application.  The issue with Path was that it occurred without users' explicit consent and that the data was then stored on their servers.  The CEO even commented that it was "industry best practice".
 
 It's this last comment that is concerning.  Mostly because it's true.
 
 Path wasn't alone in quietly scraping users' data.  Although they didn't suffer the same backlash, sites like Instagram, Twitter, Foursquare and others were also taking copies of users' address books. All without the users' explicit knowledge.  
 
-It appears that in the race to create excellent, well-designed user experiences, the simple act of *informing users what you're doing* with their data is completely overlooked.  Perhaps it's one dialog box too far for the developers?  
+It appears that in the race to deliver excellent, well-designed user experiences, the simple act of *informing users what you're doing* with their data is completely overlooked.  Perhaps it's one dialog box too far for the developers?  
 
 The surprising thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple explicitly didn't lock-down address book access, it must be acceptable to do whatever you want with it.  Apple may be at fault for allowing unfettered access but their guidelines do state that:
 
@@ -30,9 +30,9 @@ The surprising thing that's come out of this isn't only that data-copying is so 
 
 The meaning of "data about a user" could be considered a little ambiguous and this viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
 
-In general, I find the annoyance directed at Apple to be counter-productive. Despite the seemingly failed app approval process, it's still the social networks who wrote the code to copy data, *without user prompting*.  Claiming that it's Apple's fault for 'letting them get away with it' seems disingenuous.  Those networks should hold themselves to higher standards.  
+In general, I find the annoyance directed at Apple to be counter-productive. Despite the seemingly failed app approval process, it's still the social networks who wrote the code to copy data, *without user prompting*.  Claims that it's Apple's fault for 'letting them get away with it' seem to be missing the point.  That those networks should hold themselves to higher standards.  
 
-Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and your '[lifelong digital footprint][horizon-institute]' is becoming a more visible topic.  As well it should be.
+Each of these 'privacy-leak' stories seem to be short-lived but the growing frequency indicates that control over personal data and awareness of your '[lifelong digital footprint][horizon-institute]' is becoming a more visible topic.  As well it should be.
 
 
 ### Rough timeline of events
