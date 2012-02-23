@@ -22,9 +22,12 @@ It appears that in the race to deliver excellent, well-designed user experiences
 
 The surprising thing that's come out of this isn't only that data-copying is so prevalent but the attitude that it's somehow Apple's responsibility.  Since Apple explicitly didn't lock-down address book access, it must be acceptable to do whatever you want with it.  Apple may be at fault for allowing unfettered access but their guidelines do state that:
 
-> 17.1 Apps cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used
-
-> 17.2 Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
+> Para 17.1 - Apps cannot transmit data about a user without obtaining the
+> user's prior permission and providing the user with access to information
+> about how and where the data will be used
+>
+> Para 17.2 - Apps that require users to share personal information, such as
+> email address and date of birth, in order to function will be rejected
 
 The meaning of "data about a user" could be considered a little ambiguous and this viewpoint also seems to be shared by two US Congressmen, who promptly sent a letter to Apple asking for clarification on data access.
 
