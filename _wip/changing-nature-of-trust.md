@@ -1,13 +1,13 @@
 <!--
 ---
 layout: post
-title: Connected devices, web services and Signpost
+title: The Changing Nature of Trust
 author: Amir Chaudhry
 excerpt: 
 ---
 -->
 
-# Changing Nature of Trust
+# The Changing Nature of Trust
 
 
 ---

@@ -9,8 +9,6 @@ excerpt:
 
 # Holding area for possible future posts.
 
-
-
 ## Data communism?
 
 Was at a talk recently (17 Feb 2012) with Simon Hampton (google european policy director) and Mac of Horizon.
@@ -26,7 +24,6 @@ Essentially, it feels like data-communism.  Nobody owns the 'data" it's free for
 ## Privacy leaks and Learned Helplessness
 
 With all the random privacy leaks, changing ToS and Policies are we simply being beaten into a state of Learned Helplessness?  
-
 
 
 ## Desktop vs Webapps and privacy
