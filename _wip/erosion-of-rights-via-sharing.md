@@ -23,7 +23,7 @@ The [Fourth Amendment][] of the US Constitution guards against unreasonable sear
 
 Specifically, in cases where the Fourth Amendment applies, the Supreme Court may need to decide what's reasonable and whether warrants are required before the government can collect information.  The fact that 'expectations' are involved necessarily means that cultural norms play a role in such decisions. If courts believe that sharing information through social networks with hundreds of 'friends' reduces the expectation of privacy, then warrants would no longer be required.  This essentially begins to erode individual rights.  In addition, law enforcement could argue that content was shared with the platform itself, thus no longer considered private.
 
-Overall, this is another indication that technology and behaviour are evolving much faster than the judicial process.  People will still share articles, music choices over the networks but this shouldn't imply that such items are de-facto considered as public.
+Overall, this is another indication that technology and behaviour are evolving much faster than the judicial process.  People will still share articles, music choices but this shouldn't imply that such items are de-facto considered as public.
 
 [law-review]: http://wakeforestlawreview.com/reading-over-your-shoulder-social-readers-and-privacy-law
 
