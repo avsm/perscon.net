@@ -33,5 +33,13 @@ This is now pure speculation.  Perhaps its because the app developers come from 
 Would desktop app back-in-the-day ahve been like this?  If I install a to-do list app could it quitely look through my files and send things back home?  Probably, but I wonder of app devs did this?  WEre they ethically better? or was it just too hard?
 
 
+## Email as the last resort for security.  
+
+- 
+
+## Giving up right to privacy without thinking about it
+
+http://www.theatlantic.com/technology/archive/2012/03/how-frictionless-sharing-could-undermine-your-legal-right-to-privacy/254277/
+
 
 
