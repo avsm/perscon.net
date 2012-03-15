@@ -12,7 +12,7 @@ As services become 'social' the ability to seamlessly share things with your col
 
 In general, this type of sharing is considered largely innocuous, unless you count those occasions where your friends catch you listening to something embarrassing (though some services do offer a 'private listening' mode).  However, it seems that users who take advantage of this kind of frictionless sharing might inadvertently be eroding their rights.  At least in the USA.
 
-An [article][law-review] in a student law review journal makes some intriguing points about how sharing could affect rights.  Specifically for the case of social readers, which automatically share what you're reading online.  You may feel that the items being shared are probably of little consequence but as many of the networks have demonstrated, pieces of information can combine into valuable datasets. 
+An [article in a student law journal][law-review] makes some intriguing points about how ubiquitous sharing could affect rights.  Specifically for the case of social readers, which automatically share what you're reading online.  You may feel that the items being shared are probably of little consequence but as all the major social networks have demonstrated, pieces of information can combine into valuable datasets. 
 
 > ... reading choices that seem innocuous to you can cumulatively be
 > indicative of patterns, intent, or allegiances to others ...
