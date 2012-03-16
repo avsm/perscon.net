@@ -5,6 +5,8 @@ author: Amir Chaudhry
 excerpt: As services become 'social' the ability to seamlessly share things with your colleagues and friends becomes widespread. However, it seems that frictionless sharing might inadvertently erode rights.
 ---
 
+<!-- Frictionless sharing could erode rights -->
+
 <a href="http://www.flickr.com/photos/42787205@N00/4477454044/" title="US Constitution by Mark Rasmussen, on Flickr"><img src="http://farm5.staticflickr.com/4069/4477454044_6f8b33c8ff_m.jpg" width="159" height="240" align='right'  hspace="10" vspace="10" alt="US Constitution"></a>
 As services become 'social' the ability to seamlessly share things with your colleagues and friends becomes widespread.  For example, Facebook allows users to connect their music services and share what they're listening to with their friends.
 
